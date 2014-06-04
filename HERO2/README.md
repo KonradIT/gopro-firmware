@@ -1,6 +1,5 @@
 #HERO2 Firmware research
 
-![](logo.jpg)
 
 .txt files the gopro hero2 gave me, i input'd the command and the gopro output'd the description in a .txt
 
@@ -10,3 +9,8 @@
 ```
 
 Get input commands [here](help.txt)
+
+---
+
+![](logo.jpg)
+####Found in the GoPro z port!
