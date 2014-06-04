@@ -1,6 +1,6 @@
 #HERO2 Firmware research
 
-![](log.jpg)
+![](logo.jpg)
 
 .txt files the gopro hero2 gave me, i input'd the command and the gopro output'd the description in a .txt
 
