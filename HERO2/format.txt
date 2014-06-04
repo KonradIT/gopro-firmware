@@ -1,0 +1,2 @@
+usage: format [drive] [param]
+	[param]: FAT12|FAT16|FAT32|UDF|udf|MS_FULL|MS_QUICK|ll1|ll2|ll3|DVD-RAM|DVD-SINGLE|DVD-MULTI,SPC=<num>,BS=<num>

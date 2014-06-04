@@ -1,0 +1,3 @@
+valid test targets for ddr are:
+	tuner
+	dump

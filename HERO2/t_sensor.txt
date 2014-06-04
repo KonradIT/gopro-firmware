@@ -1,0 +1,11 @@
+t sensor -upmclk:add mclk
+t sensor -downmclk:decrease mclk
+t sensor [Addr(HEX)] [Value(HEX]) : Write specified register
+t sensor -r [RegAddr(HEX16)] : Read specified register
+t sensor -r_range [Addr(HEX)] [Num_of_reg]
+t sensor -agc [index] : Set AGC with specified AGC index
+t sensor -sht [mode] [sht_index] : Set shutter with specified index
+t sensor -msg : Print sensor current status
+t sensor -reg_dump : Register dump provided by sensor
+t sensor -ss : Trigger slowshutter switch function
+t sensor -winfo : Print window info

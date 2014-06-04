@@ -1,0 +1,25 @@
+App test command list:
+	msg
+	key
+	mempool
+	curapp
+	linux_usb
+	hls_enable
+	hls_delbound
+	hls_plamount
+	hls_iamount
+	hls_clean_op
+	hls_vf
+	thm_extract [source path] [destination path]
+	scr_extract [source path] [destination path]
+	power_saving
+	set_AEB_NUM [NUM], note must in AEB mode and NUM = 3, 5, 7
+	Wi2cinit
+	Wrec
+	Wi2cwrite
+	tcmd
+	ViewFinder
+	SDPlayback
+	USB_To_HB
+	USB_To_MiniB
+	test

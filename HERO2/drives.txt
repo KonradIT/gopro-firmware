@@ -1,0 +1,5 @@
+4 drives present in system
+drive 'A' - NFTL Media
+drive 'D' - SD/MMC
+drive 'F' - RAMDISK
+drive 'Z' - ROMFS

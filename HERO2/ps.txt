@@ -1,0 +1,51 @@
+ ID  PRI      STAT ACT WUP SUS  NAME
+  2    5   DELAYED   0   0   0  main_task
+  3  110  WAIT_FLG   0   0   0  print_daemon_task
+  4    3     SLEEP   0   0   0  abs_prktask
+  5    5     SLEEP   0   0   0  abs_prktask
+  6    1  WAIT_SEM   0   0   0  abs_prktask
+  7    5     SLEEP   0   0   0  abs_prktask
+  8    5     SLEEP   0   0   0  abs_prktask
+  9   18  WAIT_FLG   0   0   0  adc
+ 10   45  WAIT_FLG   0   0   0  Message Manager
+ 11   16 WAIT_RDTQ   0   0   0  peri_task
+ 12   57 WAIT_RDTQ   0   0   0  button_task
+ 13  102  WAIT_FLG   0   0   0  Button Detect Mgr
+ 14   56 WAIT_RDTQ   0   0   0  scardmgr_task
+ 15   38 WAIT_RDTQ   0   0   0  stktask_func
+ 16   37 WAIT_RDTQ   0   0   0  debou_task
+ 17   50  WAIT_MBX   0   0   0  prfile2
+ 19  254   SUSPEND   0   0   1  boss_printk_task
+ 20   80 WAIT_RDTQ   0   0   0  ipc_svc
+ 21   35 WAIT_RDTQ   0   0   0  ipc_bh 0
+ 22   35  WAIT_MTX   0   0   0  ipc_bh 1
+ 23   64  WAIT_FLG   0   0   0  UCLD
+ 24   64 WAIT_RDTQ   0   0   0  audio_decode_task
+ 25   64 WAIT_RDTQ   0   0   0  audio_encode_task
+ 26   64 WAIT_RDTQ   0   0   0  audio_input_process_task
+ 27   64 WAIT_RDTQ   0   0   0  audio_output_process_task
+ 28   64 WAIT_RDTQ   0   0   0  external_audio_codec_task
+ 29   15  WAIT_FLG   0   0   0  iav_vdsp
+ 30   61 WAIT_RDTQ   0   0   0  cavlc_task
+ 31   51  WAIT_FLG   0   0   0  Host Control Manager
+ 32   92  WAIT_FLG   0   0   0  Storage monitor
+ 33   95  WAIT_FLG   0   0   0  PCBR monitor
+ 34   26  WAIT_FLG   0   0   0  Framerate monitor (VDSP)
+ 35   25  WAIT_FLG   0   0   0  Framerate monitor (AVSYNC)
+ 36   78  WAIT_FLG   0   0   0  Graphics2 Command Handler
+ 37   22  WAIT_FLG   0   0   0  Image Algo Task
+ 38   17  WAIT_FLG   0   0   0  Image VIN Task
+ 39   59  WAIT_FLG   0   0   0  Image Adjust
+ 40   41  WAIT_FLG   0   0   0  Recorder State Transition Manager
+ 41   81  WAIT_FLG   0   0   0  Recorder Mux Manager
+ 42  101   DELAYED   0   0   0  Preview YUV Processor
+ 43   23  WAIT_FLG   0   0   0  Recorder Snapshot Shutter Controller
+ 44   42  WAIT_FLG   0   0   0  Player FLOW CTRL Manager
+ 45   82  WAIT_FLG   0   0   0  Player DeMux Manager
+ 46   80  WAIT_FLG   0   0   0  amba Movie Editor
+ 47   48  WAIT_FLG   0   0   0  Graphics2 switch FCHAN vout task
+ 48  120     READY   0   0   0  d:\autoexec.ash 
+ 49   88  WAIT_FLG   0   0   0  App Async Operation Manager
+ 50   58   DELAYED   0   0   0  App Button Manager
+ 51  255     READY   0   0   0  boss_guest_task
+ 52  120   RUNNING   0   0   0  ps 

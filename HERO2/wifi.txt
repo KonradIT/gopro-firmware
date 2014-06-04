@@ -1,0 +1,11 @@
+Error: please specify function!
+status
+scan
+db
+set
+move
+del
+clear
+assoc
+off
+on

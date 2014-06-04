@@ -1,0 +1,13 @@
+Usage: t cal [OPTION] VALUE...
+Supported options:
+	-3a: AAA control
+	-ae: AE info
+	-me: Manual exposure
+	-blc: black level control
+	-raw: raw capture
+	-rawenc: raw encode with manual main window width/heigh
+	-ituner: ituner tool
+	-mgr: Calibration manager CLI tool
+	-fpn: FPN tool
+	-vnc: Vignette tool
+	-warp: WARP tool

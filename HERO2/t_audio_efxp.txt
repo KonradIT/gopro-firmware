@@ -1,0 +1,3 @@
+usage
+{t audio efxp enable AIN [effect id]}
+{t audio efxp enable AOUT [effect id]}

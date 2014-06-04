@@ -1,0 +1,2 @@
+Audio test command list:
+	efxp
