@@ -7,4 +7,4 @@
 [input command] > d:\file.txt
 ```
 
-Get input commands [here][help.txt]
+Get input commands [here](help.txt)
