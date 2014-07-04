@@ -1,0 +1,22 @@
+valid test targets for SD are:
+	test_mode
+	normal_mode
+	clkon
+	clkoff
+	rs
+	ws
+	basic
+	vdata
+	dsr
+	acc_bootp
+	max_freq
+	parse
+	timeout
+	erase
+	chk_fmt
+	cmd_log
+	shmoo
+	dc
+	altb
+	prof
+	adjust

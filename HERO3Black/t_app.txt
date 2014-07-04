@@ -1,0 +1,64 @@
+App test command list:
+	msg
+	key
+	jack
+	mempool
+	curapp
+	prefs
+	photo_size
+	setres
+	appstat
+	startmode
+	csout
+	lowbatt <percentage> <mV>
+	lcd_brightness
+	tcmd
+	swdg <clear|trigger|setpri|setarg|setthreshold> [priority|arg|threshold]
+	video_settings
+	photo_size
+	sps_settings
+	burst_settings
+	pes_settings
+	flip_mirror
+	spot_meter
+	video_photo
+	video_looping
+	protune
+	white_balance
+	default_mode
+	obm
+	video_format
+	osd
+	led_count
+	buzzer_volume
+	shutdown_mode
+	appmode
+	button
+	led
+	usb_msc2fio
+	yuv2jpg
+	power_saving
+	720pvf [bitrate]
+	bitrate [stream_type] [bitrate]
+		stream_type: 0 - primary stream, 1 - secondary stream
+		bitrate: the unit is in bps
+	pes_dly [interval time]
+	audio_sel_rx [0/1]
+	test video_looping [enable = 0/1] [split time] [split number]
+	test smooth_pes [0/1]
+	encode_ext_rc [filename]
+	burst_term [terminate capture number]
+	burst_shutter_idx [shutter_time]
+	preview_a_size [enable = 0/1] [w] [h]
+	mvthm_recovery [filename]
+	loop_filter [en = 0/1] [alpha] [beta]
+	thm_extract [source path] [destination path]
+	scr_extract [source path] [destination path]
+	updfile [...]
+	mctf_special [0/1]
+	audio_volume [0-63]
+	photo_hls [0/1]
+	pc: receive key event from PC side
+	enable_powersaving <0|1>
+	csout: enable/disable CS output
+	test

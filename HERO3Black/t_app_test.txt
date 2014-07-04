@@ -1,0 +1,22 @@
+Usage: t app test <option>
+Test option list:
+	loop_test
+	profiling
+	debug_dump
+	csc_vin
+	csc_vout
+	osd_bmp
+	vin_rotate
+	rec_fmt_rotate
+	disp_rotate
+	thm_tv_disp
+	thm2_stop_update
+	jack_switch_pb
+	dump_gobjs
+	set_kfe_factor
+	cluster_insert
+	piv
+	usb_rs232 [0/1]
+	sensor_black
+	humb_shift_by_row [0/1]
+	file_amount

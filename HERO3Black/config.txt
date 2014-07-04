@@ -1,0 +1,1213 @@
+#
+# Automatically generated make config: don't edit
+#
+has_comsvc_src=y
+has_peripheral_src=y
+has_fio_src=y
+has_ui_src=y
+has_app3_src=y
+has_init_src=y
+# CONFIG_ARCH_MMP2_A1 is not set
+# CONFIG_ARCH_A1 is not set
+# CONFIG_ARCH_MMP2_A2 is not set
+# CONFIG_ARCH_A2 is not set
+# CONFIG_ARCH_A2S is not set
+# CONFIG_ARCH_A2M is not set
+# CONFIG_ARCH_A2Q is not set
+# CONFIG_ARCH_MMP2_A3 is not set
+# CONFIG_ARCH_A3 is not set
+# CONFIG_ARCH_A5 is not set
+# CONFIG_ARCH_A5L is not set
+# CONFIG_ARCH_MMP2_A6 is not set
+# CONFIG_ARCH_A6 is not set
+# CONFIG_ARCH_A5S is not set
+CONFIG_ARCH_A7=y
+# CONFIG_ARCH_A7L is not set
+# CONFIG_ARCH_I1 is not set
+# CONFIG_ARCH_MMP2_A7M is not set
+PREFER_CORE_ARM=y
+# PREFER_CORE_THUMB is not set
+# CONFIG_BSP_MMP2_A1 is not set
+# CONFIG_BSP_MMP2_A2 is not set
+# CONFIG_BSP_MMP2_A3 is not set
+# CONFIG_BSP_MMP2_A6 is not set
+# CONFIG_BSP_MMP2_A7M is not set
+# CONFIG_BSP_A1BUB is not set
+# CONFIG_BSP_A1REF is not set
+# CONFIG_BSP_A1GUCLB is not set
+# CONFIG_BSP_JIG is not set
+# CONFIG_BSP_WVB is not set
+# CONFIG_BSP_TERNARY is not set
+# CONFIG_BSP_A2BUB is not set
+# CONFIG_BSP_A2BUB_1GB is not set
+# CONFIG_BSP_A2BUB_ROMFS is not set
+# CONFIG_BSP_A2HIFEMU is not set
+# CONFIG_BSP_A2EVK is not set
+# CONFIG_BSP_A2EVK_ROMFS is not set
+# CONFIG_BSP_A2EVK_1GB is not set
+# CONFIG_BSP_A2EVK_WIFI is not set
+# CONFIG_BSP_A2IPCAM_WIFI is not set
+# CONFIG_BSP_FUN5614C is not set
+# CONFIG_BSP_A2IPC is not set
+# CONFIG_BSP_CIVET is not set
+# CONFIG_BSP_SERPENT is not set
+# CONFIG_BSP_QUAIL is not set
+# CONFIG_BSP_A2GUCLB is not set
+# CONFIG_BSP_A2BGUCLB is not set
+# CONFIG_BSP_DV5090 is not set
+# CONFIG_BSP_V5Z5 is not set
+# CONFIG_BSP_Z5X5 is not set
+# CONFIG_BSP_A2SBUB is not set
+# CONFIG_BSP_A2SBUB_20 is not set
+# CONFIG_BSP_A2SBUB_512 is not set
+# CONFIG_BSP_V5Z25 is not set
+# CONFIG_BSP_A2MBUB is not set
+# CONFIG_BSP_A2MBUB_20 is not set
+# CONFIG_BSP_A2MLB is not set
+# CONFIG_BSP_A2QBUB is not set
+# CONFIG_BSP_A5LBUB is not set
+# CONFIG_BSP_A5LBUB_B is not set
+# CONFIG_BSP_A5LEVK is not set
+# CONFIG_BSP_A3BUB is not set
+# CONFIG_BSP_A3LB is not set
+# CONFIG_BSP_A3BUBH is not set
+# CONFIG_BSP_A3BUBP is not set
+# CONFIG_BSP_A5BUB is not set
+# CONFIG_BSP_A5BUB_20 is not set
+# CONFIG_BSP_A5BUB_20_B is not set
+# CONFIG_BSP_A5BUB_20_ELPIDA is not set
+# CONFIG_BSP_A5BUB_ELPIDA_2GB is not set
+# CONFIG_BSP_A5BUB_NANYA_DDR3 is not set
+# CONFIG_BSP_A5BUB_ELPIDA_DDR3 is not set
+# CONFIG_BSP_A5LB is not set
+# CONFIG_BSP_CAMIO is not set
+# CONFIG_BSP_LEXUS_H is not set
+# CONFIG_BSP_LEXUS_V is not set
+# CONFIG_BSP_LEXUS_T is not set
+# CONFIG_BSP_A6BUB is not set
+# CONFIG_BSP_A6LB is not set
+# CONFIG_BSP_A5SBUB_A is not set
+# CONFIG_BSP_A5SBUB_B is not set
+# CONFIG_BSP_A5SBUB_C is not set
+# CONFIG_BSP_A5SBUB_D is not set
+# CONFIG_BSP_A5SBUB_E is not set
+# CONFIG_BSP_A5SEVK_1G is not set
+# CONFIG_BSP_A5SEVK_1G_NANYA is not set
+# CONFIG_BSP_COCONUT is not set
+# CONFIG_BSP_H7A5S_1G is not set
+# CONFIG_BSP_A5S_ABILITY is not set
+# CONFIG_BSP_A5SEVK_A is not set
+# CONFIG_BSP_A5SEVK_A_2G is not set
+# CONFIG_BSP_OEM is not set
+# CONFIG_BSP_A7BUB is not set
+# CONFIG_BSP_A7BUB_B is not set
+# CONFIG_BSP_A7BUB_C is not set
+# CONFIG_BSP_A7SEC is not set
+# CONFIG_BSP_A7BUB_C_HYNIX_1GBX2 is not set
+# CONFIG_BSP_A7BUB_C_B0_HYNIX_1GBX2 is not set
+# CONFIG_BSP_A7BUB_C_B0_HYNIX_2GBX2 is not set
+# CONFIG_BSP_A7BUB_C_B0_MICRON_2GBX2 is not set
+# CONFIG_BSP_A7EVK is not set
+# CONFIG_BSP_A7EVK_V12A is not set
+CONFIG_BSP_TODOS=y
+# CONFIG_BSP_A7LBUB is not set
+# CONFIG_BSP_I1BUB is not set
+# CONFIG_BSP_I1BUB_A_REV is not set
+# CONFIG_BSP_I1BUB_B is not set
+
+#
+# Memory Options
+#
+
+#
+# AMBoot memory options
+#
+AMBOOT_BLD_RAM_START=0xc0000000
+AMBOOT_BLD_STACK_SIZE=0x00008000
+AMBOOT_BLD_HEAP_SIZE=0x00008000
+
+#
+# RTOS memory options
+#
+KERNEL_RAM_START=0xc0100000
+KERNEL_NONCACHEBUFFERED_SIZE=0x0050000
+RAMDISK_RAM_START=0x00000000
+RAMDISK_RAM_SIZE=0x00000000
+IDSP_RAM_START=0xc5c00000
+IDSP_RAM_SIZE=0x17C00000
+LINUX_RAM_START=0xc3200000
+LINUX_RAM_SIZE=0x02a00000
+
+#
+# AMBoot (boot loader)
+#
+# BUILD_AMBPROM is not set
+BUILD_AMBOOT=y
+# BUILD_WITH_SYMTAB is not set
+# AMBOOT_DEV_USBDL_MODE is not set
+AMBOOT_DEV_AUTO_BOOT=y
+AMBOOT_DEV_CMDLINE="streaming=enable streaming_type=hls hls_type=ios5"
+# DRAM_TYPE_DDR2 is not set
+DRAM_TYPE_DDR3=y
+# DRAM_TYPE_LPDDR is not set
+# DRAM_TYPE_LPDDR2 is not set
+# AMBOOT_UART_19200 is not set
+# AMBOOT_UART_38400 is not set
+# AMBOOT_UART_57600 is not set
+AMBOOT_UART_115200=y
+BUILD_DEVFW=y
+
+#
+# HAL
+#
+HAL="../../../sv/a7/image/ambhal.bin"
+HAL_VIF="../../../sv/a7/image/ambhal.info"
+
+#
+# Persistent BIOS App Partition
+#
+PBA="../prkbios_release.gz"
+PBA_VIF="../pba.info"
+
+#
+# Primary Partition
+#
+KERNEL="../prkapp_release.bin"
+KERNEL_VIF="../nozpri.info"
+
+#
+# Secondary Partition
+#
+SECONDARY="../../../../boss_sdk/output.oem/images/Image"
+SECONDARY_VIF="../../../src/linuxinfo/kernel.info"
+SECONDARY_LOADADDR=0xc3208000
+
+#
+# Backup Partition
+#
+BACKUP=""
+BACKUP_VIF=""
+
+#
+# Ramdisk Partition
+#
+RAMDISK=""
+RAMDISK_VIF=""
+RAMDISK_LOADADDR=0xc3200000
+
+#
+# ROMFS Partition
+#
+CREATE_ROMFS_FW=y
+ROMFS_CONFIG_FILE="../../../gui/todos/romfs/a7_ft_grenade.romfs"
+ROMFS_VIF="../../../gui/todos/romfs/romfs.info"
+
+#
+# DSP Partition
+#
+CREATE_DSP_FW=y
+# USE_COMPRESSED_DSP_FW is not set
+USE_NON_COMPRESSED_DSP_FW=y
+DSP_MAIN_IMG="../ucode/a7_60/orccode.bin"
+DSP_SUB0_IMG="../ucode/a7_60/orcme.bin"
+DSP_SUB1_IMG="../ucode/a7_60/orcmdxf.bin"
+DSP_DATA_IMG="../ucode/a7_60/default_binary.bin"
+DSP_AORC_IMG=""
+DSP_VIF="../ucode/version.info"
+
+#
+# Linux Partition
+#
+LNX="../../../../boss_sdk/output.oem/images/rootfs.ubi"
+LNX_VIF="../../../src/linuxinfo/ubifs.info"
+# LNX_USE_OOB is not set
+
+#
+# Swap Partition
+#
+SWP="../../../src/linuxinfo/ambernation.img"
+SWP_VIF="../../../src/linuxinfo/ambernation.info"
+
+#
+# Android Data Partition
+#
+ADD=""
+ADD_VIF=""
+
+#
+# Android Cache Partition
+#
+ADC=""
+ADC_VIF=""
+MINIMAL_FIRMWARE_COMBO=y
+# ENABLE_AMBOOT_ROMFS_FILESYSTEM is not set
+# ENABLE_MINIMIZE_AMBOOT is not set
+# SHOW_AMBOOT_SPLASH is not set
+# ENABLE_AMBOOT_TEST_REBOOT is not set
+
+#
+# Kernel Partial Loading
+#
+# ENABLE_KERNEL_PARTIAL_LOADING is not set
+
+#
+# PBA (Persistent BIOS App)
+#
+# BUILD_PBA is not set
+
+#
+# RTOS (PrKERNELv4) Configuration
+#
+
+#
+# Allocated System Resources
+#
+TCB_NUM=96
+SEM_NUM=96
+FLG_NUM=160
+DTQ_NUM=32
+MBX_NUM=32
+MTX_NUM=160
+MPF_NUM=32
+MPL_NUM=64
+CYC_NUM=32
+ALM_NUM=32
+INT_NUM=287
+SYS_STK=0x4000
+INITTSK_STACK_SIZE=0x200
+MAINTSK_STACK_SIZE=0x2000
+
+#
+# Daemon Configuration
+#
+
+#
+# WARNING: CHANGING FOLLOWING PARAMETERS HAS NO EFFECT! (no source)
+#
+
+#
+# PrFILE/PrFILE2
+#
+# SUPPORT_PRFILE is not set
+SUPPORT_PRFILE2=y
+
+#
+# PrUSB Options
+#
+
+#
+# WARNING: CHANGING FOLLOWING PARAMETERS HAS NO EFFECT! (no source)
+#
+ENABLE_USB=y
+CONFIG_PU_INIDATA=y
+CONFIG_PU_STRG_CLASS=y
+
+#
+# Mass Storage Class settings
+#
+CONFIG_PU_AAA_CLASS=y
+
+#
+# AAA Class settings
+#
+UAAA_VENDOR_ID=0x4255
+UAAA_PRODUCT_ID=0x0001
+UAAA_BULK_IN_SIZE=0x100000
+UAAA_BULK_OUT_SIZE=0x100000
+UAAA_BUF_MAX_SIZE=0x100000
+# CONFIG_PU_RAW_CLASS is not set
+# CONFIG_PU_CUSTOMER_AV_CLASS is not set
+# CONFIG_PU_PICTBRIDGE_CLASS is not set
+
+#
+# PictDirect Settings
+#
+# CONFIG_ENABLE_VENDOR_CLASS is not set
+
+#
+# ROMFS
+#
+SUPPORT_ROMFS=y
+
+#
+# UDF
+#
+# SUPPORT_UDF is not set
+
+#
+# LKVFS
+#
+# SUPPORT_LKVFS is not set
+
+#
+# exFAT
+#
+SUPPORT_EXFAT=y
+
+#
+# Common Service
+#
+# ENABLE_EMBBIN is not set
+# USE_PREF_COMP is not set
+ENABLE_FWLD=y
+
+#
+# Peripheral Module Options
+#
+# PRK_UART_19200 is not set
+# PRK_UART_38400 is not set
+# PRK_UART_57600 is not set
+PRK_UART_115200=y
+
+#
+# Host Port Module
+#
+# ENABLE_HOST_PORT is not set
+ENABLE_RTC=y
+# ENABLE_FFMON is not set
+# ENABLE_EEPROM is not set
+# ENABLE_TOUCH is not set
+# ENABLE_GPS is not set
+# ENABLE_SBRIDGE is not set
+ENABLE_LED=y
+ENABLE_BUZZER=y
+ENABLE_WIFIBT=y
+
+#
+# Select PMIC device
+#
+ENABLE_PMIC=y
+# CONFIG_PMIC_AS360X is not set
+CONFIG_PMIC_AS371X=y
+ENABLE_HEROBUS=y
+
+#
+# Select BACPAC device
+#
+ENABLE_BACPAC=y
+CONFIG_BACPAC_BATTERY=y
+CONFIG_BACPAC_3D=y
+CONFIG_BACPAC_LCD=y
+# CONFIG_BACPAC_WIFIBT is not set
+CONFIG_BACPAC_TESTER=y
+
+#
+# FIO Subsystem Options
+#
+# CONFIG_SUPPORT_XD is not set
+CONFIG_SUPPORT_SD=y
+ENABLE_FLASH=y
+# CONFIG_NAND_NONE is not set
+# CONFIG_NAND_K9F2808 is not set
+# CONFIG_NAND_K9F5608 is not set
+# CONFIG_NAND_K9F1208 is not set
+# CONFIG_NAND_K9F1208X0C is not set
+# CONFIG_NAND_K9F1G08 is not set
+# CONFIG_NAND_K9F1G08U0B is not set
+# CONFIG_NAND_K9F2G08 is not set
+# CONFIG_NAND_K9F2G08U0C is not set
+# CONFIG_NAND_K9W8G08 is not set
+# CONFIG_NAND_K9K4G08 is not set
+# CONFIG_NAND_K9K8G08 is not set
+# CONFIG_NAND_K9WAG08 is not set
+# CONFIG_NAND_K9NBG08 is not set
+# CONFIG_NAND_HY27US08281A is not set
+# CONFIG_NAND_HY27US08561A is not set
+# CONFIG_NAND_HY27US08561M is not set
+# CONFIG_NAND_HY27US08121M is not set
+# CONFIG_NAND_HY27US08121A is not set
+# CONFIG_NAND_HY27UA081G1M is not set
+CONFIG_NAND_HY27UF081G2A=y
+# CONFIG_NAND_HY27UF082G2A is not set
+# CONFIG_NAND_HY27UF082G2B is not set
+# CONFIG_NAND_HY27UF084G2B is not set
+# CONFIG_NAND_HY27UF084G2M is not set
+# CONFIG_NAND_HY27U1G8F2B is not set
+# CONFIG_NAND_H27U518S2c is not set
+# CONFIG_NAND_HY27US4G86F2D is not set
+# CONFIG_NAND_ST128W3A is not set
+# CONFIG_NAND_ST256W3A is not set
+# CONFIG_NAND_ST512W3A is not set
+# CONFIG_NAND_ST01GW3A is not set
+# CONFIG_NAND_ST01GW3B is not set
+# CONFIG_NAND_ST02GW3B is not set
+# CONFIG_NAND_NUMONYX02GW3B2D is not set
+# CONFIG_NAND_TC58DVM72A is not set
+# CONFIG_NAND_TC58DVM82A is not set
+# CONFIG_NAND_TC58DVM92A is not set
+# CONFIG_NAND_TC58NVG0S3C is not set
+# CONFIG_NAND_TC58NVG0S3E is not set
+# CONFIG_NAND_TC58NVG1S3E is not set
+# CONFIG_NAND_TC58NVG2S3E is not set
+# CONFIG_NAND_TC58NVM9S3C is not set
+# CONFIG_NAND_MT29F2G08AAC is not set
+# CONFIG_NAND_MT29F2G08ABA is not set
+# CONFIG_NAND_MT29F8G08DAA is not set
+# CONFIG_NAND_MT29F4G08ABADA is not set
+# CONFIG_NAND_CT48248NS486G1 is not set
+# CONFIG_NAND_ASU1GA30HT is not set
+# CONFIG_NAND_K9F4G08U0A is not set
+# CONFIG_NAND_S34ML01G1 is not set
+# CONFIG_NAND_S34ML02G1 is not set
+CONFIG_NAND_1DEVICE=y
+# CONFIG_NAND_2DEVICE is not set
+# CONFIG_NAND_4DEVICE is not set
+CONFIG_NOR_NONE=y
+# CONFIG_NOR_E28F128 is not set
+# CONFIG_NOR_E28F640 is not set
+# CONFIG_NOR_E28F320 is not set
+# CONFIG_NOR_JS28F320 is not set
+FLPRF_FATBUF_SZ=2
+ENABLE_NFTL=y
+# ENABLE_CF is not set
+ENABLE_SD=y
+# CONFIG_SD_PIO is not set
+CONFIG_SD_DMA=y
+
+#
+# MMC 4.0 Support
+#
+CONFIG_DO_BUSTEST=y
+CONFIG_MMC_HIGH_SPEED=y
+SDPRF_FATBUF_SZ=2
+# ENABLE_MS is not set
+ENABLE_RAMDISK=y
+# ENABLE_HIFEMU is not set
+# ENABLE_MLCBRG is not set
+
+#
+# Networking Device Drivers
+#
+# ENABLE_NETDEV is not set
+# ENABLE_ETH is not set
+
+#
+# User Interface Devices
+#
+ENABLE_AMBSH=y
+ENABLE_HISTORY=y
+# ENABLE_TCL_JIM is not set
+# ENABLE_IOZONE is not set
+
+#
+# Audio module
+#
+
+#
+# WARNING: CHANGING FOLLOWING PARAMETERS HAS NO EFFECT! (no source)
+#
+# ENABLE_AUDIO is not set
+ENABLE_AUDIO_2=y
+ENABLE_TEST_AUDIO2=y
+ARM_AUDIO=y
+# AORC_AUDIO is not set
+
+#
+# Audio Pre/Post Processing Functions
+#
+
+#
+# Enale/Disable Audio Pre/Post Processing Functions
+#
+ENABLE_AU_PRE_PROC=y
+ENABLE_AU_POST_PROC=y
+
+#
+# Audio Mips-Record Functions
+#
+
+#
+# Enable/Disable Audio Mips-Record Functions
+#
+# ENABLE_AU_DEC_MIPS_REC is not set
+# ENABLE_AU_ENC_MIPS_REC is not set
+
+#
+# Audio Debug/Release Library Selection
+#
+
+#
+# Choose Debug/Release Audio Library
+#
+# ENABLE_AUDIO_DEBUG_LIB is not set
+# AIN_1_1_MODE is not set
+# AIN_1_0_MODE is not set
+# AIN_2_0_MODE is not set
+# AIN_3_0_MODE is not set
+# AIN_2_1_MODE is not set
+# AIN_3_1_MODE is not set
+AIN_2_2_MODE=y
+# AIN_3_2_MODE is not set
+# ENABLE_AIN_LFE is not set
+DISABLE_AIN_LFE=y
+AIN_MIN_UPSMP_LEVEL7=y
+# AIN_MIN_UPSMP_LEVEL8 is not set
+# AIN_MIN_UPSMP_LEVEL9 is not set
+# AIN_INTERVAL_5MS is not set
+# AIN_INTERVAL_10MS is not set
+AIN_INTERVAL_20MS=y
+# AIN_DMA_8 is not set
+AIN_DMA_16=y
+# AIN_DMA_32 is not set
+# AIN_DMA_64 is not set
+# AIN_DMA_128 is not set
+# AOUT_1_1_MODE is not set
+# AOUT_1_0_MODE is not set
+# AOUT_2_0_MODE is not set
+# AOUT_3_0_MODE is not set
+# AOUT_2_1_MODE is not set
+# AOUT_3_1_MODE is not set
+AOUT_2_2_MODE=y
+# AOUT_3_2_MODE is not set
+# ENABLE_AOUT_LFE is not set
+DISABLE_AOUT_LFE=y
+AOUT_MAX_UPSMP_8=y
+# AOUT_MAX_UPSMP_16 is not set
+# AOUT_MAX_UPSMP_24 is not set
+# AOUT_DMA_8 is not set
+AOUT_DMA_16=y
+# AOUT_DMA_32 is not set
+# AOUT_DMA_64 is not set
+# AOUT_DMA_128 is not set
+DAI_TX_16_BIT=y
+# DAI_TX_32_BIT is not set
+# FULL_DUPLEX_MODE is not set
+HALF_DUPLEX_MODE=y
+
+#
+# Audio AD/DA Device Selection
+#
+
+#
+# Select the Audio AD/DA Device
+#
+# ENABLE_AK4643_CODEC is not set
+# ENABLE_ALC5633_CODEC is not set
+# ENABLE_CS42448_CODEC is not set
+# ENABLE_DIX4192_CODEC is not set
+# ENABLE_ML26121_CODEC is not set
+# ENABLE_ML26125_CODEC is not set
+# ENABLE_ML26127_CODEC is not set
+# ENABLE_ML26128_CODEC is not set
+# ENABLE_ML26129_CODEC is not set
+# ENABLE_TLV320AIC3007_CODEC is not set
+# ENABLE_TLV320AIC3016_CODEC is not set
+ENABLE_TLV320AIC3209_CODEC=y
+# ENABLE_WM1800_CODEC is not set
+# ENABLE_WM8940_CODEC is not set
+# ENABLE_WM8978_CODEC is not set
+# ENABLE_WM8946_CODEC is not set
+# ENABLE_WM8994_CODEC is not set
+# ENABLE_MDA320_CODEC is not set
+# ENABLE_OEM_CODEC is not set
+
+#
+# Audio Encoder Selection
+#
+
+#
+# Select the Audio Encoder
+#
+ENABLE_PCM_ENCODER=y
+# ENABLE_G711_ENCODER is not set
+ENABLE_AAC_ENCODER=y
+# ENABLE_MP3_ENCODER is not set
+# ENABLE_WMA_ENCODER is not set
+# ENABLE_AC3_ENCODER is not set
+ENABLE_ADPCM_ENCODER=y
+# ENABLE_LPCM_ENCODER is not set
+# ENABLE_AMR_ENCODER is not set
+
+#
+# Audio Decoder Selection
+#
+
+#
+# Select the Audio Decoder
+#
+ENABLE_PCM_DECODER=y
+# ENABLE_G711_DECODER is not set
+ENABLE_AAC_DECODER=y
+# ENABLE_MP3_DECODER is not set
+# ENABLE_WMA_DECODER is not set
+# ENABLE_AC3_DECODER is not set
+ENABLE_ADPCM_DECODER=y
+# ENABLE_LPCM_DECODER is not set
+# ENABLE_AMR_DECODER is not set
+# ENABLE_OV_DECODER is not set
+ENABLE_AUDIO2_ALSA=y
+ENABLE_IPC_AUDIO2_API=y
+
+#
+# Audio Power On Beep
+#
+
+#
+# Power on beep setup
+#
+POWER_ON_BEEP_PATTERN_EXIST=y
+POWER_ON_BEEP_FILENAME="poweron_12k.pcm"
+POWER_ON_BEEP_SAMPLE_RATE=12000
+POWER_ON_BEEP_CHANNEL=1
+
+#
+# VIN Devices
+#
+
+#
+# Gyro Sensor
+#
+# CONFIG_GYRO_NONE is not set
+CONFIG_GYRO_OEM=y
+# CONFIG_GYRO_INVENSENSE_IDGAO101 is not set
+# CONFIG_GYRO_INVENSENSE_IDG1050 is not set
+# CONFIG_GYRO_INVENSENSE_IDG1150 is not set
+# CONFIG_GYRO_INVENSENSE_IDG2000_I2C is not set
+# CONFIG_GYRO_INVENSENSE_IDG2000_SPI is not set
+# CONFIG_GYRO_INVENSENSE_IDG2020 is not set
+# CONFIG_GYRO_INVENSENSE_ITG3200 is not set
+# CONFIG_GYRO_INVENSENSE_MPU3000 is not set
+# CONFIG_GYRO_INVENSENSE_MPU6000 is not set
+# CONFIG_GYRO_PANASONIC_EWTS98C is not set
+# CONFIG_GYRO_PANASONIC_EWTS9P is not set
+# CONFIG_GYRO_PANASONIC_EWTSAFMA21 is not set
+# CONFIG_GYRO_SONY_S2 is not set
+# CONFIG_GYRO_SONY_X is not set
+# CONFIG_GYRO_ST_L3 is not set
+# CONFIG_G_ST_LIS3DH is not set
+CONFIG_IS_OFF=y
+# CONFIG_IS_ON is not set
+
+#
+# Select Lens Device
+#
+# CONFIG_LENS_NONE is not set
+CONFIG_LENS_OEM=y
+# CONFIG_LENS_AO1217_LV8483cs_I is not set
+
+#
+# Select Sensor Device
+#
+# CONFIG_SENSOR_NONE is not set
+# CONFIG_SENSOR_OEM is not set
+# CONFIG_SENSOR_MT9P001 is not set
+# CONFIG_SENSOR_MT9P001_180M is not set
+# CONFIG_SENSOR_S5K3H2YX_S3D is not set
+# CONFIG_SENSOR_S5K2N1YX is not set
+# CONFIG_SENSOR_S5K2P1YX is not set
+# CONFIG_SENSOR_S5K4E5YX_S3D is not set
+# CONFIG_SENSOR_MT9J001_A5 is not set
+# CONFIG_SENSOR_MT9J001_A7 is not set
+# CONFIG_SENSOR_MT9F001_A7 is not set
+# CONFIG_SENSOR_MT9F002_A7 is not set
+# CONFIG_SENSOR_MT9T002_A7 is not set
+# CONFIG_SENSOR_MT9T002_S3D is not set
+# CONFIG_SENSOR_OV8830_A7 is not set
+# CONFIG_SENSOR_OV14810_A7 is not set
+# CONFIG_SENSOR_OV10810_A7 is not set
+# CONFIG_SENSOR_MT9F002_A7_PARALLEL is not set
+# CONFIG_SENSOR_IMX039_A7 is not set
+# CONFIG_SENSOR_IMX052_A7 is not set
+# CONFIG_SENSOR_IMX078_A7 is not set
+# CONFIG_SENSOR_IMX083_A7 is not set
+CONFIG_SENSOR_IMX117_A7=y
+
+#
+# Select YUV Input Device
+#
+# CONFIG_ADV7401 is not set
+# CONFIG_ADV7403 is not set
+# CONFIG_ADV7443 is not set
+# CONFIG_ADV7441A is not set
+# CONFIG_SAA7111 is not set
+# CONFIG_SAA7117 is not set
+# CONFIG_GS1560A is not set
+# CONFIG_GS2970 is not set
+# CONFIG_TI5150 is not set
+# CONFIG_ADV7180 is not set
+# CONFIG_OV7720 is not set
+# CONFIG_MCB1102 is not set
+
+#
+# Enable all device drivers
+#
+# ENABLE_TVD_DRIVERS is not set
+
+#
+# VOUT Devices
+#
+
+#
+# Select LCD device
+#
+
+#
+# NOTE: Select at most 1 device for A1/A2 and at most 2 devices for A3
+#
+# CONFIG_LCD_A020BL01_051 is not set
+# CONFIG_LCD_A021BL01 is not set
+# CONFIG_LCD_A024DL01 is not set
+# CONFIG_LCD_A025DL01 is not set
+# CONFIG_LCD_TD024THEA1 is not set
+# CONFIG_LCD_TD030WHEA1 is not set
+# CONFIG_LCD_A027DL01 is not set
+# CONFIG_LCD_A030DL0X is not set
+# CONFIG_LCD_AM0236GF01 is not set
+# CONFIG_LCD_COM20T2146 is not set
+# CONFIG_LCD_TD025THEA1 is not set
+# CONFIG_LCD_TD030THEA2 is not set
+# CONFIG_LCD_TD036THEA1 is not set
+# CONFIG_LCD_A030DN01 is not set
+# CONFIG_LCD_TD043MGEB1 is not set
+# CONFIG_LCD_WLD048THEA1 is not set
+# CONFIG_LCD_SONY018TMD is not set
+# CONFIG_LCD_HMHX8258A is not set
+# CONFIG_LCD_SHARP_LS020A8DX01 is not set
+# CONFIG_LCD_WD_F9624VJ is not set
+# CONFIG_LCD_WD_F2440V9 is not set
+# CONFIG_LCD_GPG9648 is not set
+# CONFIG_LCD_OEM1 is not set
+# CONFIG_LCD_OEM2 is not set
+CONFIG_LCD_PSEUDO=y
+
+#
+# Enable all device drivers
+#
+# ENABLE_LCD_DRIVERS is not set
+
+#
+# Select Front Panel device
+#
+ENABLE_FP=y
+CONFIG_FP_ST7585=y
+CONFIG_FP_60X75=y
+
+#
+# Select digital TV device
+#
+
+#
+# NOTE: Select at most 1 device for A1/A2 and at most 2 devices for A3
+#
+CONFIG_TVE_ONCHIP=y
+# CONFIG_TVE_ADI7314 is not set
+
+#
+# Enable all device drivers
+#
+# ENABLE_TVE_DRIVERS is not set
+
+#
+# Select HDMI device
+#
+
+#
+# NOTE: Select at most 1 device for A1/A2 and at most 2 devices for A3
+#
+# CONFIG_HDMI_SII90X0 is not set
+# CONFIG_HDMI_AD9889 is not set
+CONFIG_HDMI_ONCHIP=y
+# CONFIG_HDMI_NXP998X is not set
+
+#
+# Enable all device drivers
+#
+# ENABLE_HDMI_DRIVERS is not set
+
+#
+# Select HDMI CEC functions
+#
+
+#
+# NOTE: The CEC(HDMI option) if chips support
+#
+# ENABLE_CEC_ONCHIP is not set
+
+#
+# Select view finder (VF) device
+#
+
+#
+# NOTE: Select at most 1 device for A1/A2 and at most 2 devices for A3
+#
+
+#
+# Enable all device drivers
+#
+# ENABLE_VF_DRIVERS is not set
+
+#
+# DSP Driver
+#
+
+#
+# WARNING: CHANGING FOLLOWING PARAMETERS HAS NO EFFECT! (no source)
+#
+ENABLE_DSP_DRV=y
+
+#
+# IAV Layer
+#
+
+#
+# WARNING: CHANGING FOLLOWING PARAMETERS HAS NO EFFECT! (no source)
+#
+ENABLE_IAV=y
+IAV_BITS_FIFO_SIZE=0x02500000
+ENABLE_IAV_EXTERNAL_BINS=y
+
+#
+# Middleware Options
+#
+
+#
+# WARNING: CHANGING FOLLOWING PARAMETERS HAS NO EFFECT! (no source)
+#
+ENABLE_MW=y
+ENABLE_UC=y
+
+#
+# MW Image Algo
+#
+
+#
+# Select Image Algo Implementation
+#
+ENABLE_IMG_ALGO2=y
+# ENABLE_AAA_SOURCE_BUILD is not set
+# ENABLE_AF_SOURCE_BUILD is not set
+# ENABLE_IMG_ALGO3 is not set
+# ENABLE_IMG_EASY_ALGO is not set
+
+#
+# MW Image Sensor
+#
+
+#
+# Select Image Sensor Implementation
+#
+# ENABLE_IMG_SENSOR is not set
+ENABLE_IMG_SENSOR2=y
+
+#
+# MW Image YUV
+#
+
+#
+# Select Image YUV Implementation
+#
+# ENABLE_IMG_YUV is not set
+
+#
+# MW Recorder
+#
+
+#
+# Select Recorder Implementation
+#
+ENABLE_RECORDER=y
+ENABLE_VIDEO_RECORDER_PIPE=y
+ENABLE_PHOTO_RECORDER_PIPE=y
+# ENABLE_SOUND_RECORDER_PIPE is not set
+# ENABLE_PCCAM_PIPE is not set
+# ENABLE_DUPLEX_RECORDER_PIPE is not set
+
+#
+# MW Player
+#
+
+#
+# Select Player Implementation
+#
+ENABLE_PLAYER=y
+ENABLE_VIDEO_PIPE=y
+ENABLE_PHOTO_PIPE=y
+# ENABLE_SOUND_PIPE is not set
+ENABLE_THUMB_PIPE=y
+
+#
+# MW Editor
+#
+
+#
+# Select Editor Implementation
+#
+ENABLE_EDITOR=y
+ENABLE_ISOFILEEDITOR=y
+# ENABLE_AVCHD_FILEEDITOR is not set
+# ENABLE_AVCHD_MARKEDITOR is not set
+ENABLE_EXIF_EDITOR=y
+ENABLE_AVI_EDITOR=y
+# ENABLE_M4A_EDITOR is not set
+
+#
+# MW Format
+#
+
+#
+# Select Format Implementation
+#
+# ENABLE_AVCHDMUX is not set
+ENABLE_TSMUX=y
+# ENABLE_RTTSMUX is not set
+# ENABLE_USBMUX is not set
+# ENABLE_MSMP4MUX is not set
+ENABLE_MP4MUX=y
+ENABLE_MOVMUX=y
+ENABLE_3GPMUX=y
+ENABLE_CUSTOMMUX=y
+ENABLE_EXIFMUX=y
+# ENABLE_DNGMUX is not set
+# ENABLE_ADTSMUX is not set
+# ENABLE_WAVMUX is not set
+ENABLE_AVIMUX=y
+# ENABLE_M4AMUX is not set
+ENABLE_ISODEMUX=y
+# ENABLE_AVCHDDEMUX is not set
+# ENABLE_TSDEMUX is not set
+ENABLE_EXIFDEMUX=y
+# ENABLE_AC3DEMUX is not set
+# ENABLE_AACDEMUX is not set
+# ENABLE_PCMDEMUX is not set
+# ENABLE_MP3DEMUX is not set
+# ENABLE_WAVDEMUX is not set
+ENABLE_AVIDEMUX=y
+# ENABLE_M4ADEMUX is not set
+# ENABLE_ISO_KFE_FLOW is not set
+
+#
+# MW Stream
+#
+
+#
+# Select MW Stream Implementation
+#
+ENABLE_FIO_STREAM=y
+ENABLE_MEM_STREAM=y
+ENABLE_AIO_STREAM=y
+# ENABLE_PCCAM_STREAM is not set
+# ENABLE_BUFFILE_STREAM is not set
+# ENABLE_USBVIDEOIO_STREAM is not set
+# ENABLE_USBMJPGIO_STREAM is not set
+ENABLE_NETWORK_STREAM=y
+
+#
+# MW DMF
+#
+
+#
+# Select Digital Media File Implementation
+#
+ENABLE_DMF=y
+# ENABLE_AVCHD is not set
+ENABLE_DCF=y
+# ENABLE_DCF_V1 is not set
+# ENABLE_DCF_V2 is not set
+ENABLE_GOPRO_DCF=y
+
+#
+# MW Display
+#
+
+#
+# Select Display Implementation
+#
+ENABLE_DISPLAY=y
+
+#
+# MW Graphics
+#
+
+#
+# Select Graphics Implementation
+#
+ENABLE_GRAPHICS=y
+# ENABLE_G1 is not set
+ENABLE_G2=y
+ENABLE_G2_VOUT=y
+ENABLE_G2_UDF=y
+
+#
+# MW Monitor
+#
+
+#
+# Select MW Monitor Implementation
+#
+ENABLE_ARMMON=y
+ENABLE_DSPMON=y
+# ENABLE_YUVMON is not set
+ENABLE_FRMON_VIN=y
+ENABLE_FRMON_VDSP=y
+ENABLE_FRMON_AVSYNC=y
+ENABLE_STORAGEMON=y
+# ENABLE_FRMON_VOUT is not set
+ENABLE_PCBRMON=y
+ENABLE_VBRMON=y
+
+#
+# MW Button
+#
+
+#
+# Select Button Implementation
+#
+ENABLE_BUTTON=y
+
+#
+# MW Index
+#
+
+#
+# Select MW Index Implementation
+#
+ENABLE_TEMP_INDEX=y
+ENABLE_RAW_INDEX=y
+
+#
+# MW USB
+#
+
+#
+# Select MW USB Implementation
+#
+ENABLE_MW_USB=y
+
+#
+# MW EXT
+#
+
+#
+# Select MW EXT Implementation
+#
+# ENABLE_EXT is not set
+
+#
+# MW TBS
+#
+
+#
+# Select Text Based Sharing Implementation
+#
+ENABLE_TBS=y
+# ENABLE_SMARK is not set
+# ENABLE_DPOF is not set
+# ENABLE_DBOS is not set
+# ENABLE_TEXT_PLIST is not set
+# ENABLE_SHNOW is not set
+
+#
+# Application
+#
+ENABLE_APP=y
+# ENABLE_APP2 is not set
+ENABLE_APP3=y
+CONFIG_GRENADE=y
+ENABLE_APP_DEMOLIB=y
+# ENABLE_DEMO is not set
+# ENABLE_SEP is not set
+# ENABLE_EASY is not set
+# ENABLE_SPYCAM_APP is not set
+# ENABLE_AC3_CERTIFICATION_APP is not set
+# ENABLE_SPORT_DV is not set
+ENABLE_BOSS_DV=y
+ENABLE_NOT_FIXED_ON_PREVIEW_MODE=y
+# ENABLE_FIXED_ON_PREVIEW_MODE is not set
+# DEMOAPP_VIN_SENSOR_AND_YUV is not set
+DEMOAPP_VIN_SENSOR_OR_YUV=y
+# DEMOAPP_VIN_SENSOR is not set
+# DEMOAPP_VIN_YUV is not set
+DEMOAPP_ENABLE_CC_DESC=y
+# DEMOAPP_DISABLE_CC_DESC is not set
+# DEMOAPP_PHOTO_SHUTTER_ONE_STEP is not set
+DEMOAPP_PHOTO_SHUTTER_TWO_STEPS=y
+# DEMOAPP_MODE_CHANGE_BY_ROTATE is not set
+DEMOAPP_MODE_CHANGE_BY_MENU=y
+# DEMOAPP_MODE_CHANGE_BY_JPEGS is not set
+DEMOAPP_SECONDARY_STORAGE_CF=y
+# DEMOAPP_SECONDARY_STORAGE_2ND_SD is not set
+ENABLE_CALIBRATION_MODULE=y
+# DISABLE_CALIBRATION_MODULE is not set
+ENABLE_DZSCAN=y
+# DISABLE_DZSCAN is not set
+# NO_VENDOR is not set
+ENABLE_FREETYPE_LIB=y
+# ENABLE_ARPHIC_LIB is not set
+# ENABLE_FACE_SMILE_DETECTION is not set
+# ENABLE_REDEYE_REMOVAL is not set
+# ENABLE_PHOTO_PANORAMA is not set
+# ENABLE_VIDEO_PANORAMA is not set
+# ENABLE_OBJECT_TRACKING is not set
+# ENABLE_PET_DETECTION is not set
+# ENABLE_FACE_BEAUTY_LIB is not set
+# ENABLE_HDR is not set
+# ENABLE_DYNAMIC_LIGHTING is not set
+# ENABLE_JPEG_LIB is not set
+# ENABLE_STAMP is not set
+# ENABLE_3D_MASTER_SLAVE_FUNC is not set
+# ENABLE_DECRAW is not set
+ENABLE_SWDG=y
+
+#
+# Test Programs
+#
+
+#
+# WARNING: CHANGING FOLLOWING PARAMETERS HAS NO EFFECT! (no source)
+#
+
+#
+# Changing following options has no effect (binary distribution)
+#
+ENABLE_TEST=y
+# ENABLE_TEST_SHMOO is not set
+# ENABLE_TEST_RX_JPEG is not set
+ENABLE_TEST_CAL=y
+# ENABLE_TEST_A6_MPEG4 is not set
+# ENABLE_TEST_STEPPER_MOTOR is not set
+# ENABLE_TEST_USB is not set
+# ENABLE_TEST_MJPEG is not set
+ENABLE_TEST_SENSOR=y
+ENABLE_TEST_HDMI=y
+# ENABLE_TEST_HDCP is not set
+# ENABLE_TEST_AMBA_DAI is not set
+# ENABLE_TEST_AUDIO_ADDA is not set
+# ENABLE_GYRO_LOG is not set
+
+#
+# BOSS
+#
+CONFIG_SUPPORT_BOSS=y
+CONFIG_BOSS_TOP="../itron_supp"
+CONFIG_BOSS_LOAD_SECONDARY=y
+CONFIG_BOSS_SECONDARY_CMDLINE="console=ttyS1 ubi.mtd=lnx root=ubi0:linux rootfstype=ubifs"
+# CONFIG_BOSS_LOAD_RAMDISK is not set
+# CONFIG_BOSS_ITRON_IDLE_STATE is not set
+# CONFIG_BOSS_AFTER_HIBER is not set
+
+#
+# IPCDRV
+#
+CONFIG_IPCDRV_TOP="../itron_supp"
+
+#
+# IPCPROG
+#
+CONFIG_IPCPROG_TOP="../itron_supp"
+CONFIG_IPCPROG_PREFIX="a7"
+# CONFIG_ENABLE_LINUX_EXFB is not set
+
+#
+# IPCPROG_PRV
+#
+CONFIG_IPCPROG_PRV_TOP="../itron_supp"
+CONFIG_IPCPROG_PRV_PREFIX="a7"
+CONFIG_IPC_NETCONFIG=y
+CONFIG_IPC_DVF2WEB=y
+CONFIG_IPC_STREAMER=y
+CONFIG_HLS_STREAMER=y
+
+#
+# Manual & API spec.
+#
+# ENABLE_MANUAL_GEN is not set

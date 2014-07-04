@@ -1,0 +1,25 @@
+Usage: t ia2 -lens [cmd] ....... 	
+		Supported cmd		 		
+			linfo			lens information	
+			init			initial lens		
+			park			lens park		
+			stdby [en]		lens standby 		
+			zi [pps] [steps]	Zoom In		
+			zo [pps] [steps]	Zoom Out		
+			zpi [en]		Zoom PI On/Off	
+			zst			Get Zoom status	
+			fn [pps] [steps]	Focus Near		
+			ff [pps] [steps]	Focus Far		
+			fpi [en]		Focus PI On/Off	
+			fst			Get Focus status	
+			iris [pos]		Set aperture		
+			irisq			Query Fno and AVno	
+			irist			Get aperture status	
+			sh [pos]		Shutter Operation	
+			shst			Get Shutter Operation	
+			shdly			Get M.Shutter delay time
+			nd [pos]		ND filter Enable/Disable
+			ndst			Get ND filter status	
+			cal [p1] [p2] [p3] [p4]	Calibrate lens
+			iot [p1] [p2]		Ext. API		
+

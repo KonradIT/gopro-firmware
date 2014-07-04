@@ -1,0 +1,6 @@
+Usage: t app test vin_rotate <degree>
+Degree list:
+	0
+	90
+	180
+	270

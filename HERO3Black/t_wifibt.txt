@@ -1,0 +1,6 @@
+Usage:  wifibt [id] [params]
+	pair
+	rndis
+	ap
+	clear
+	hls <enable|disable|start|stop|restart>

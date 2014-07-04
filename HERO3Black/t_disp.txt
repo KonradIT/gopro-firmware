@@ -1,0 +1,7 @@
+Usage: disp [op] 
+	 info	- ch
+	 lcdr	- ch ,mode
+	 csc	- ch t_tem[1 domain, 2 udf, 3 NULL, 4 F0, 5 FF] 
+	 wrosd	- addr fmt w h value
+	 dposdbin	- addr w h 
+	 osdfmt	- chan pxlfmt value 

@@ -1,0 +1,2 @@
+Recorder test command list:
+	snap

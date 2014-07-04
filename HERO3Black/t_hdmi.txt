@@ -1,0 +1,10 @@
+Usage:
+	hdmi edid [get/save]
+	hdmi get video_freq
+	hdmi timing hdmi
+	hdmi timing vout
+	hdmi set test_pattern [on/off]
+	hdmi get hdmi_phy
+	hdmi set hdmi_phy [0/10/20/30](pre-emphasis:%) [0/0.6/1.2/1.8](sink current:mA)
+	hdmi get hdmi_hpd_detection_mode
+	hdmi dump hdmi_isr

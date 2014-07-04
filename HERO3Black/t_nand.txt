@@ -1,0 +1,2 @@
+Usage: nand [intlve]
+	where intlve is number of banks to interleave

@@ -1,0 +1,5 @@
+valid command for vin are:
+	info
+	sbrg
+	irq
+	rct

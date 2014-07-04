@@ -1,0 +1,3 @@
+__mass storage class test command __
+msc mount
+msc unmount

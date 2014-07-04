@@ -1,0 +1,17 @@
+
+SYNOPSIS
+	t sensor [4mOPTION[0m [[4mARGUMENT[0m]
+
+DESCRIPTION
+	Immediately manipulate sensor driver according to [4mOPTION[0m:
+
+	[1m-r [reg_addr] [num_regs]    [0mRead sensor registers.
+	[1m-w [reg_addr] [reg_data]    [0mWrite one sensor register.
+	[1m-agc [agc_idx]		    [0mSet sensor gain with the virtual agc index.
+	[1m-sht [mode] [sht_idx]	    [0mSet integration time with the shutter speed index.
+	[1m-ss [ss_index]		    [0mChange frame rate according to slow shutter index.
+	[1m-brief			    [0mPrint sensor current setting in brief.
+	[1m-detail			    [0mPrint sensor current setting in detail.
+	[1m-wlist [trav] [item] [type] [0mPrint sensor preview/capture/calibration window list.
+	[1m-reg_dump		    [0mRegister dump provided by sensor.
+	[1m-debug [mask]		    [0mVerbosity control for sensor debug purpose.

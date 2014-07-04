@@ -1,0 +1,11 @@
+Usage: t app test rec_fmt_rotate <parameter>
+Degree list:
+	<parameter> (Explanation):
+	<0x01>	  (Normal)
+	<0x02> 	  (Flip & Horizontal)
+	<0x03>	  (Rotate 180)
+	<0x04>	  (Flip & Vertical)
+	<0x05>	  (Transpose)
+	<0x06>	  (Rotate 90)
+	<0x07>	  (Transverse)
+	<0x08>	  (Rotate 270)
