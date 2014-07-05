@@ -1,0 +1,15 @@
+Usage: t is2 -dzoom [zoom ratio]:		 set digital zoom ratio
+		    zoom ratio: digital zoom ratio > 1
+       t is2 -dzoom dmy_range [range]:		 set dummy window range
+		    range: dummy window range, 0x10000 = 1x. > 1X 
+       t is2 -dzoom dmy_range [range_x] [range_y]:	 set dummy window range
+		    range_x: dummy window range in x direction, 0x10000 = 1x. > 1X 
+		    range_y: dummy window range in y direction, 0x10000 = 1x. > 1X 
+       t is2 -dzoom dmy_range [range_left] [range_right] [range_top] [range_bot]:	 set dummy window range
+		    range_left: dummy window range in left, 0x10000 = 1x. < 1X 
+		    range_right: dummy window range in right, 0x10000 = 1x. < 1X 
+		    range_top: dummy window range in top, 0x10000 = 1x. < 1X 
+		    range_bot: dummy window range in bot, 0x10000 = 1x. < 1X 
+       t is2 -dzoom ext_ver_range [en]:            en: 1 enable exrand vertical dummy range trick.
+                                                                    en: 0 disable exrand vertical dummy range trick.
+

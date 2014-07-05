@@ -1,0 +1,26 @@
+Usage: t ia2 -dzoom  info:                       get digital zoom information
+                     status:                     get digital zoom status
+                     adv_status:                 get advanced digital zoom status
+                     hrz_status:                 get HRZoom status
+                     hrz_en [en]:                0: HRZoom disable; 1: HRZoom enable
+                     jump [step] [sft_x] [sft_y]: 		goto certain step 
+                         step, target step
+                         sft_x = adv_dzoom shift x. -65536 ~ 65536
+                         sft_y = adv_dzoom shift y. -65536 ~ 65536
+                     [dir] [speed] [dist]:       digital zoom control
+                         dir = 0, ZOOM IN
+                         dir = 1, ZOOM OUT
+                         dir = 2, STOP
+                         speed = [1..5] 1 is fastest, 5 is slowest
+                         dist = relative step from current position
+                     [dir] [speed] [dist] [sft_x] [sft_y]: digital zoom control
+                         dir = 0, ZOOM IN
+                         dir = 1, ZOOM OUT
+                         dir = 2, STOP
+                         speed = [1..5] 1 is fastest, 5 is slowest
+                         dist = relative step from current position
+                         sft_x = adv_dzoom shift x. -65536 ~ 65536
+                         sft_y = adv_dzoom shift y. -65536 ~ 65536
+                     s3d_dist [dist]:                 Add dzoom horizontal convergence shift
+                         dist = s3d horizontal convergnece distance shift. -65536 ~ 65536
+                     s3d_dft [drift_left] [drift right]

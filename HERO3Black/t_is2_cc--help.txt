@@ -1,0 +1,3 @@
+Usage: t is2 -cc: get the current cc table addresses
+       t is2 -cc load [cc_3d_path] [sec_cc_path]: set the current cc table
+

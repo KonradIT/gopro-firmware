@@ -1,0 +1,6 @@
+Error: please specify function!
+status
+info
+set
+clear
+restart

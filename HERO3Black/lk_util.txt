@@ -1,0 +1,5 @@
+Error: please specify function!
+gettimeofday
+printk
+fbctrl
+async_ipc

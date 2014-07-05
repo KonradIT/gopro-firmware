@@ -1,0 +1,5 @@
+Error: please specify function!
+gettimeofday
+printf
+exec
+exec2

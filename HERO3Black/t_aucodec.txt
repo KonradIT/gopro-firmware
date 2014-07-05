@@ -1,0 +1,4 @@
+Audio CODEC test command list:
+	rdau
+	wrau
+	wrau_burst

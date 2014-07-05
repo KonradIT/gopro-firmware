@@ -1,0 +1,8 @@
+Error: please specify function!
+show_db
+set_db
+del_db_all
+del_db_idx
+queue
+upload
+abort

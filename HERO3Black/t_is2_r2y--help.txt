@@ -1,0 +1,3 @@
+Usage: t is2 -r2y: get the current R2Y setting
+       t is2 -r2y [r2y_mat_0]...[r2y_mat_8] [y_off] [u_off] [v_off]: set the current R2Y setting
+

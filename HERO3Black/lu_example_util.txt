@@ -1,0 +1,3 @@
+Error: please specify function!
+gettimeofday
+printf

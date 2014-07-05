@@ -1,0 +1,1 @@
+t ia2 -ssh [upsmp] : Set slow shutter with upsampling rate upsmp.

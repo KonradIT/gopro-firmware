@@ -1,0 +1,3 @@
+Usage: t is2 -art: get the current ART effect setting
+       t is2 -art [str]: set ART effect strength
+
