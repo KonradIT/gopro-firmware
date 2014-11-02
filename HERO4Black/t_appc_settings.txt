@@ -1,0 +1,6 @@
+Usage: t appc settings [command]
+
+	 status use: t appc status show
+	 save
+	 reset
+	 still_override <"reset" | mode>

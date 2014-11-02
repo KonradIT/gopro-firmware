@@ -1,0 +1,23 @@
+t api system internal_battery_info
+t api system external_battery_info
+t api system shutdown [force]
+t api system reset [force]
+t api system factory_reset <all|user|wireless|ssid_pw>
+t api system recording_status
+t api system busy_status
+t api system contextual_menu_status
+t api system quick_capture_status
+t api system shutdown_status
+t api system ready_status
+t api system firmware_version
+t api system status - TODO
+t api system all_status - TODO
+t api system camera_locate_status [off|on]
+t api system temperature
+t api system temperature_warn_status
+t api system camera_info
+t api system button [<mode|shutter|settings|lcd> <release|press|long_press>]
+t api system current_time
+t api system display_info [int_lcd|ext_lcd|hdmi|av_cable|any]
+t api system analytics_clear
+t api system analytics_file_name

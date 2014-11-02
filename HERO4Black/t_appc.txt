@@ -1,0 +1,10 @@
+t appc status
+      settings
+      wireless
+      log
+      fwupdate
+      playback
+      mode
+      capture
+      stream
+      liveview

@@ -1,0 +1,36 @@
+AmbaShell Test Command [Version 1.0.0000]
+(C) Copyright 2004-2014 Ambarella Corp.
+
+supported test commands:
+	help
+	frw
+	drv
+	button
+	as3715
+	aic3212
+	cx20812
+	audio_hawaii
+	audio_effect
+	audio
+	sd
+	fioprf_thruput
+	fioprf_randvrfy
+	sd_shmoo
+	ddr
+	gpio
+	i2c
+	spi
+	timer
+	gdma
+	gdma
+	still
+	appc
+	api
+	camdata
+	hiber
+	ipc
+	amba_rpc
+	linux
+	gp_ipc
+	ipc_stats
+	tracex

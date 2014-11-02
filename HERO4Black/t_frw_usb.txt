@@ -1,0 +1,10 @@
+Usage: t frw usb [command]
+
+    command
+         connect                 connects USB
+         disconnect              disconnects USB
+         test-int-reg            command to test interrupt conf registers
+         datacon <0|1|2> <delay> 0: off; 1: on; 2: off,delay(ms),on
+         mountsd                 mount SD
+         umountsd                un-mount SD
+         debug <option>          Enable/Disable AMBA driver debug logs

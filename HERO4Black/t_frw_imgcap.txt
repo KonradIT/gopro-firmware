@@ -1,0 +1,19 @@
+Usage: t frw imgcap [command]
+
+    command:
+         start                                     starts image capture
+         stop                                      stops image capture
+         lowlight [on/off]                         sets low light state
+         mctf [none/on/off]                        mctf override "none" = no override
+                                                   "on" = mctf on "off" = mctf off
+                                                   Note the override is only applicable in 4K modes
+         clocks [IDSP Clk] [Core Clk] [Cortex Clk] overrides the capture clock frequencies
+                                                   setting clock value to 0 is no override
+         get_counts                                get sof and last-pixel-ready event counters
+         rst_counts                                reset sof and last-pixel-ready event counters
+         ticks_dump                                dump burst capture ticks
+         load video num fullpathname               load IQ parameter file from SD card
+         [video/still] sharpness [low/medium/high]      sets Protune sharpness
+         [video/still] color_mode [gopro/flat]          sets Protune color mode
+         [video/still] wb [auto/3000k/5500k/6500k/off]  sets Protune white balance
+         [video/still] ev_comp [-2.0 : 2.0]             sets Protune exposure compensation

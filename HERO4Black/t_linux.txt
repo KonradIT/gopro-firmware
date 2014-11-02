@@ -1,0 +1,6 @@
+Usage: t linux <command>, where command is:
+	suspend
+	resume
+	test <num> <suspend_mode>, 1: hiber to ram, 2: standby: ,3: suspend to ram
+	test_amba <num> <suspend_mode>
+	set_mode <suspend_mode>, 1: hiber to ram, 2: standby: ,3: suspend to ram

@@ -1,0 +1,23 @@
+t frw dspmem
+      power
+      tshutdown
+      nvm
+      dfs_write
+      dfs_sd
+      dfs_browse
+      dfs_nand_test
+      test_mdb
+      audsrc
+      audsink
+      audcap
+      pipecfg
+      imgsrc
+      disp
+      usb
+      fb
+      pb
+      me
+      orientation
+      imgcap
+      mft
+      streamer

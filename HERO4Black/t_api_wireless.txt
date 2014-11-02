@@ -1,0 +1,19 @@
+t api wireless log
+t api wireless mode [off|app|rc|network|smart]
+t api wireless enable [no|yes]
+t api wireless pairing [rc|app|network|bt_audio|app_ble]
+t api wireless pairing_stop
+t api wireless push_multek
+t api wireless ssid_scan_start
+t api wireless ssid_scan_stop
+t api wireless ssid - TODO
+t api wireless ssid_select - TODO
+t api wireless ssid_delete [arg0]
+t api wireless ap_set
+t api wireless csi_get
+t api wireless csi_set
+t api wireless rc_ota_mode [hold|cancel|go]
+t api wireless tftp <WIRELESS_TFTP_STOP|WIRELESS_TFTP_START_INTERNAL|WIRELESS_TFTP_START_EXTERNAL>
+t api wireless settings - TODO
+t api wireless status - TODO
+t api wireless rtcwake_suspend - TODO

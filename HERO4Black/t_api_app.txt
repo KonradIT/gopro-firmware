@@ -1,0 +1,4 @@
+t api app mode [video|photo|multi_shot|broadcast|playback|setup|fwupdate|usb_mtp|sos]
+t api app sub_mode [video|timelapse|video_photo|looping|single|continuous|night_photo|burst|timelapse|nightlapse|broadcast_record|broadcast]
+t api app mode_sub_mode [<video|photo|multi_shot|broadcast> <video|timelapse|video_photo|looping|single|continuous|night_photo|burst|timelapse|nightlapse|broadcast_record|broadcast>]
+t api app status - TODO

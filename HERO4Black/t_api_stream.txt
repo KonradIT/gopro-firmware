@@ -1,0 +1,8 @@
+t api stream enable [no|yes]
+t api stream gop_size [arg0]
+t api stream idr_interval [arg0]
+t api stream bit_rate [arg0]
+t api stream window_size [default|240_width_default|240_width_3/4|240_width_1/2|480_width_default|480_width_3/4|480_width_1/2]
+t api stream settings - TODO
+t api stream status - TODO
+t api stream supported

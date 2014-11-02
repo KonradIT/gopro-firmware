@@ -1,0 +1,15 @@
+t drv temps
+      cable
+      buzzer
+      rtc
+      led
+      battery
+      templog
+      tasks
+      sdstr
+      voutstr
+      hdmiphy
+      sensor
+      bma222e
+      fp
+      mpm
