@@ -1,0 +1,6 @@
+Usage: t frw orientation [command]
+
+    command:
+         get                                     gets the current orientation
+         get_mode                                gets the orientation mode
+         set_mode [auto|up|down]                 sets the orientation mode

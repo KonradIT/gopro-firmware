@@ -1,0 +1,17 @@
+
+
+ t api pb win <first_index> <second_index> 
+ t api pb idx <file_index>
+ t api pb q_dec_req <file_index>
+ t api pb dq_dec_req <queue_index>
+ t api pb q_flush
+ t api pb buf_copy <index>
+ t api pb scrnl_enter <index>
+ t api pb q_scrnl_req <file_index>
+ t api pb dq_scrnl_req <queue_index>
+ t api pb q_flush_scrnl
+ t api pb scrnl_copy <index>
+ t api pb thumb_dim <height> <width>
+ t api pb scrn_info <index>
+ t api pb background_clear
+ t api pb delete <num_files> <file_indexes>

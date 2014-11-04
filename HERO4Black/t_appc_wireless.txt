@@ -1,0 +1,9 @@
+Usage: t appc wireless bt dut  [on|off]
+                          i2s  [on <freq>|off]
+                          uart [baud rate]
+       Issue bt test commands to Linux
+
+Usage: t appc wireless pin
+
+       Show BLE pin code
+

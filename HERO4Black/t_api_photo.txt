@@ -1,0 +1,16 @@
+t api photo default_sub_mode [single|continuous|night_photo]
+t api photo res [12mp_wide|7mp_wide|7mp_medium|5mp_medium]
+t api photo continuous_rate [3/1sec|5/1sec|10/1sec]
+t api photo spot_meter [off|on]
+t api photo exposure_time [auto|2sec|5sec|10sec|15sec|20sec|30sec]
+t api photo protune [off|on]
+t api photo protune_white_balance [auto|3000k|5500k|6500k|native]
+t api photo protune_color [gopro_color|flat]
+t api photo protune_sharpness [high|medium|low]
+t api photo protune_iso [800|400|200|100]
+t api photo protune_ev [+2|+1.5|+1|+0.5|0|-0.5|-1|-1.5|-2]
+t api photo protune_reset
+t api photo capture_start
+t api photo capture_stop
+t api photo settings - TODO
+t api photo status - TODO

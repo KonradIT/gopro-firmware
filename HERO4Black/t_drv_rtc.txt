@@ -1,0 +1,2 @@
+Usage: t drv rtc time [yyyy-mm-dd-hh-mm-ss]
+                 wake [sec]

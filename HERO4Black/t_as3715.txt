@@ -1,0 +1,20 @@
+Usage: as3715 battv
+       as3715 bt <on|off>
+       as3715 dumpregs
+       as3715 charger_disabled <set|clear|get>
+       as3715 charger_status
+       as3715 ibattemp
+       as3715 poweroff
+       as3715 read_gpio_in <gpio number>
+       as3715 readb <regaddr>
+       as3715 reset
+       as3715 suspend <ddr powered?> <ath powered?> <wifi enabled?> <bt enabled?>
+       as3715 wifi_3v3 <on|off>
+       as3715 wlan <on|off>
+       as3715 writeb <regaddr> <value>
+       as3715 warmboot <ddrvolt> <corevolt>
+       as3715 usealtfreq <usealt>
+       as3715 redled <on/off>
+       as3715 blueledmux <a9/ath>
+       as3715 blueled_back_a9_ctrl <disable|enable>
+       as3715 blueled_top_bottom_a9_ctrl <disable|enable>

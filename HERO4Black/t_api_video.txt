@@ -1,0 +1,25 @@
+t api video default_sub_mode [video|timelapse|video_photo|looping]
+t api video res_fps_fov [<4k_17:9|4k|4ks|2.7k_17:9|2.7k|2.7ks|2.7k_4:3|1440|1080s|1080|960|720s|720|wvga> <240|120|100|90|80|60|50|48|30|25|24|15|12.5> <wide|medium|narrow>]
+t api video piv [off|5sec|10sec|30sec|60sec]
+t api video looping [max|5min|20min|60min|120min]
+t api video low_light [off|on]
+t api video spot_meter [off|on]
+t api video timelapse_rate [0.5sec|1sec|2sec|5sec|10sec|30sec|60sec]
+t api video protune [off|on]
+t api video protune_white_balance [auto|3000k|5500k|6500k|native]
+t api video protune_color [gopro_color|flat]
+t api video protune_sharpness [high|medium|low]
+t api video protune_iso [6400|1600|400]
+t api video protune_ev [+2|+1.5|+1|+0.5|0|-0.5|-1|-1.5|-2]
+t api video protune_reset
+t api video record_start
+t api video record_stop
+t api video settings - TODO
+t api video progress_counter
+t api video piv_capture_start <single|repeat>
+t api video piv_capture_stop
+t api video status - TODO
+t api video capability_res_list [piv|low_light|protune|timelapse|jello_slayer]
+t api video capability_fps_list [<piv|low_light|protune|timelapse|jello_slayer> <ntsc|pal> <4k_17:9|4k|4ks|2.7k_17:9|2.7k|2.7ks|2.7k_4:3|1440|1080s|1080|960|720s|720|wvga>]
+t api video capability_fov_list [<null|suggest> <piv|low_light|protune|timelapse|jello_slayer> <ntsc|pal> <4k_17:9|4k|4ks|2.7k_17:9|2.7k|2.7ks|2.7k_4:3|1440|1080s|1080|960|720s|720|wvga> <240|120|100|90|80|60|50|48|30|25|24|15|12.5>]
+t api video capability_filter_check [<piv|low_light|protune|timelapse|jello_slayer> <ntsc|pal> <4k_17:9|4k|4ks|2.7k_17:9|2.7k|2.7ks|2.7k_4:3|1440|1080s|1080|960|720s|720|wvga> <240|120|100|90|80|60|50|48|30|25|24|15|12.5> <wide|medium|narrow>]

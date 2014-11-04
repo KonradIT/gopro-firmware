@@ -1,0 +1,18 @@
+t api storage hilight_tag
+t api storage hilight_tag_info
+t api storage remaining_space
+t api storage remaining_photos
+t api storage remaining_video_time
+t api storage num_group_photos
+t api storage num_group_videos
+t api storage num_total_photos
+t api storage num_total_videos
+t api storage last_file
+t api storage file_delete [arg0]
+t api storage latest_file_delete
+t api storage group_file_delete [arg0]
+t api storage file_name_delete <single|subsequent> <file path>
+t api storage group_file_name_delete <file path>
+t api storage all_delete
+t api storage sd_status [ok|full|removed|sd_err|busy]
+t api storage status - TODO

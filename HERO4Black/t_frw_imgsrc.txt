@@ -1,0 +1,14 @@
+Usage: t frw imgsrc [command]
+
+    command
+         start   starts image capture
+         stop    stops image capture
+         vflip   <pipe | 0 | 1>
+                 pipe: follow pipeline config (default)
+                 0: don't invert
+                 1: invert
+         bngcrct <horiz> <vert>
+                 binning correction override
+         sensor  detail        - show sensor detail
+                 shr <ctrl>    - shutter control
+                 gain <factor> - shutter gain factor

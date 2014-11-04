@@ -1,0 +1,6 @@
+Usage: t drv led start <top|bottom|front|back> <blue|red> <on msec> <off msec> [num]
+                 stop   <top|bottom|front|back> <blue|red>
+                 enable <top|bottom|front|back> <blue|red>
+                 disable <top|bottom|front|back> <blue|red>
+
+       Blink/Start/Stop LED at certain speed

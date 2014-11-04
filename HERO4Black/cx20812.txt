@@ -1,0 +1,7 @@
+Usage: t cx20812 <fn>
+
+                 fn
+                 ---
+                 readb         <addr>
+                 writeb        <addr>    <data>
+                 reg_dump

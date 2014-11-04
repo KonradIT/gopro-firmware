@@ -1,0 +1,11 @@
+valid test targets for SD are:
+	clkon
+	clkoff
+	rs
+	ws
+	max_freq
+	parse
+	timeout
+	erase
+	ds
+	cmd11

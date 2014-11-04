@@ -1,0 +1,13 @@
+Usage: t aic3212 <fn>
+
+                 fn
+                 ---
+                 readb         <addr>
+                 writeb        <addr>    <data>
+                 readmodwriteb <addr>    <data>    <modify bits>
+                 script_spew   <enable/disable>
+                 page_dump     <page>
+                 drc           <enable/disable>
+                 spkr_amp      set_atten <db>
+                 route_adc_to_dac
+                 route_i2s3_to_dac
