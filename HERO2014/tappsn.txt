@@ -1,0 +1,2 @@
+Usage: t app sn write [sn number]
+t app sn read

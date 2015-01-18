@@ -1,0 +1,3 @@
+Usage: t app curapp <param>
+Parameter list:
+	status

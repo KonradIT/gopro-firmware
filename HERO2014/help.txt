@@ -1,0 +1,22 @@
+supported built-in commands:
+	addr2func	bp		cardmgr		cat	
+	cd		chmod		config		cp	
+	cpu		date		deletedir	dmesg	
+	dramcfg		drives		dsputil		echo	
+	eeprom		eval		false		ffuc	
+	format		hal		help		history	
+	hotboot		ioerr		jobs		kill	
+	ls		md5		mesg		mkboot	
+	mkdir		morph		mv		flashdb	
+	nice		poweroff	pref		ps	
+	pwd		ramdisk		readb		readl	
+	readw		reboot		reset		resume	
+	rm		rmdir		savebin		sleep	
+	suspend		sysmon		t		test	
+	time		touch		trap		true	
+	vol		writeb		writel		writew	
+	yyinfo		usbclass	ver		vin	
+	sm		corefreq	dramfreq	idspfreq
+	dll		cleandir	volcfg		firmfl	
+	nvd		nftl		bbt		romfs	
+	fat	

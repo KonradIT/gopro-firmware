@@ -1,0 +1,7 @@
+Usage: t app ana <key>
+cmd list:
+	init
+	reset
+	save
+	add evt param1 param2 param3
+	export

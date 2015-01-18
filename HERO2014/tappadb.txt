@@ -1,0 +1,24 @@
+App test command list:
+	msg
+	key
+	sn
+	videores
+	ana
+	jack
+	mempool
+	curapp
+	test
+	dzoom
+	still_cap
+	fdstb
+	hwfdlog
+	cfaadj
+	profile
+	printts
+	mtp [0/1]
+	usb [mtp/msc]
+	usb_msc2fio
+	codecreadall
+	codecw
+	adb
+	dram_voltage

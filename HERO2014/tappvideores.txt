@@ -1,0 +1,3 @@
+Usage: t app videores 1080p30
+t app videores 720p60
+t app videores 720p60sv

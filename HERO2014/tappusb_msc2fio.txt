@@ -1,0 +1,6 @@
+Usage: t app msc2fio <option>
+Option list:
+enable: Enable 
+disable: Disable 
+on: Turn on 
+off: Turn off 

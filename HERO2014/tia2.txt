@@ -1,0 +1,21 @@
+Usage: t ia2 [OPTION] VALUE....
+Supported options:
+	-3a: AAA function
+	-fpn: FPN function
+	-vnc: Vignette function
+	-exp: exposure module
+	-dzoom: digital zoom control
+	-dzoom_2ch: digital zoom control for 2-vin
+	-warp: warp control
+	-rsc: rsc control
+	-eis: DIS/EIS control
+	-sof: SOF function
+	-ae: AE function
+	-awb: AWB function
+	-adj: ADJ function
+	-af: AF control
+	-lens: lens control
+	-ssh: slow shutter test
+	-readout: Sensor phase correction
+	-ca: ca control
+	-rotate: simulate EIS rotation

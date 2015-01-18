@@ -1,0 +1,11 @@
+Usage: disp [op] 
+	 info	- ch
+	 lcdr	- ch ,mode
+	 csc	- ch t_tem[1 domain, 2 udf, 3 NULL, 4 F0, 5 FF] 
+	 wrosd	- chan addr fmt value p w h
+	 dposdbin	- addr w h 
+	 osd_syn	- chan off_x off_y video_en video_mode osd_en 
+	 alpha_b	- blending_enable alpha chan 
+	 seamless	- enable 
+	 csc_info	- chan 
+	 dc_prev	- chan src

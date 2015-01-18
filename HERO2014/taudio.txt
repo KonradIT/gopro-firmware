@@ -1,0 +1,8 @@
+Audio test command list:
+	status
+	dbg
+	libinfo
+	beep
+	profile
+	efxp
+	tasks

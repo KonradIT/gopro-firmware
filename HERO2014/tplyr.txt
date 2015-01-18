@@ -1,0 +1,7 @@
+Usage: plyr [op] 
+	 info                   	[ch]
+	 de(digital_effect)     	- param
+	 thm_cap                	- Not yet
+	 thmop(thumb_operation) 	- param
+	 vidop(video_operation) 	- param
+	 dbg_par                	 [level]

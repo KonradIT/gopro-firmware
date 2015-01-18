@@ -1,0 +1,33 @@
+Usage: t is2 [OPTION] VALUE...
+Supported options:
+	-blc	: black level correction setup
+	-wb	: wb gain setup
+	-r2y	: RGB to YUV setup
+	-cc	: color correction setup
+	-tone	: tone curve setup
+	-dpc	: dynamic bad pixel correction setup
+	-fpn	: FPN correction setup
+	-aa	: Antialising setup
+	-lk	: Leakage filter setup
+	-cnf	: CFA noise filter setup
+	-vnc	: Vignette compensation setup
+	-le	: local exposure setup
+	-cs	: chroma scale setup
+	-cmf	: chroma median filter setup
+	-cc_reg	: color correction register setup
+	-shp	: sharpening filter setup
+	-shp_2ch	: sharpening filter setup for dual vin
+	-art	: ART effect setup
+	-mctf	: MCTF configuration setup (video)
+	-cf	: chroma filter setup (lowISO)
+	-lowiso	: low iso verification function
+	-highiso	: high iso verification function
+	-np	: night portrait verification function
+	-stat	: aaa statistics setup
+	-idsp	: idsp debug utilities
+	-filter_sw	: noise filter setup
+	-warp	: warp setup
+	-qv	: qv size
+	-midiso	: mid iso verification function
+	-cnt	: advance continuous snapshot
+Try 't is2 [OPTION] --help' for more information.

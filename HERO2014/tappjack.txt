@@ -1,0 +1,8 @@
+Usage: t app jack <jack> <event>
+Jack list:
+	hdmi
+	cp
+	cs
+Event list:
+	in
+	out

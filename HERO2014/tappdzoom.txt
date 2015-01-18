@@ -1,0 +1,3 @@
+Usage: t app dzoom <option>
+Dzoom option list:
+jump [step]: goto certain step 

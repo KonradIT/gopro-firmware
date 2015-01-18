@@ -1,0 +1,23 @@
+Usage: t cal [OPTION] VALUE...
+Supported options:
+	-3a: AAA control
+	-sc: Scene mode control
+	-de: Digital effect control
+	-ae: AE info
+	-me: Manual exposure
+	-raw: raw capture
+	-rawenc: raw encode with manual main window width/heigh
+	-ituner: ituner tool
+	-mgr: Calibration manager CLI tool
+	-fpn: FPN tool
+	-vnc: Vignette tool
+	-vnc_spec: for warp by spec
+	-task: WARP decay ratio en/disable
+	-warp: WARP tool
+	-warp_spec: for warp by spec
+	-ca: CA tool
+	-gen_ca: Gen CA tool
+	-jqlt: Set capture jpg quality
+	-bmp: Set dump bmp enalbe
+	-usb: Set remove/insert sdcard
+	-wb: display wb info

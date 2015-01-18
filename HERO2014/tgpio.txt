@@ -1,0 +1,9 @@
+Usage:
+	gpio dump - dump the GPIO status
+	gpio [line] - dump the GPIO status
+	gpio [line] sw out0 - set SW mode and output 0
+	gpio [line] sw out1 - set SW mode and output 1
+	gpio [line] sw in-poll - set SW mode input and poll the line
+	gpio [line] sw in-isr - set SW mode input and install an ISR to handle events
+	gpio [line] hw - set HW mode
+	gpio [line] pull [Enable:1 | Disable:0] [direction pull-up:1 | pull-down:0] - set gpio the line pull up/down
