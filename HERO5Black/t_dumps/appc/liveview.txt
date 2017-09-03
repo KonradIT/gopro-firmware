@@ -1,0 +1,10 @@
+Usage: t appc liveview [command]
+
+    command
+         start  starts liveview
+         stop   stops liveview
+         switch <camera config> switches liveview to new camera config
+                                see "t frw pipecfg set" for a list of possible configs
+         low_delay <LowDelayMode> <VinVoutSyncDelay>
+         video_standard <0/1> switches display module to either NTSC or PAL standard
+         clocks show PLL clock configurations

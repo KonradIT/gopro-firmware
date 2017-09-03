@@ -1,0 +1,33 @@
+t api system internal_battery_info
+t api system external_battery_info
+t api system shutdown [force]
+t api system reset [force]
+t api system factory_reset <all|user|wireless|ssid_pw|mfg_all>
+t api system recording_status
+t api system gps_fixed
+t api system busy_status
+t api system contextual_menu_status
+t api system quick_capture_status
+t api system shutdown_status
+t api system ready_status
+t api system firmware_version
+t api system status - TODO
+t api system all_status - TODO
+t api system camera_locate_status [off|on]
+t api system temperature
+t api system temperature_warn_status
+t api system camera_info
+t api system button [<mode|shutter|settings|lcd> <release|press|long_press|toggle>]
+t api system current_time
+t api system display_info [int_lcd|ext_lcd|hdmi|av_cable|any]
+t api system analytics_clear
+t api system analytics_file_name
+t api system beep_once
+t api system beep_blink <beep_blink_startup|beep_blink_warning|beep_blink_notify|beep_blink_shutdown|beep_blink_once|beep_once|blink_once|beep_blink_twice|blink_stop|beep_stop|beep_blink_error>
+t api system analytics_info
+t api system camera_orientation
+t api system acc_mic_mode [none|standard|standard_plus|self_powered|self_powered_plus|line_in]
+t api system OOBE [off|on]
+t api system man_upload <off|on>
+t api system acc_mic_status
+t api system is_charger

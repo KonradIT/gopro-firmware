@@ -1,0 +1,7 @@
+t api app mode [video|photo|multi_shot|broadcast|playback|setup|fwupdate|usb_mtp|sos|medit|calib|reserved|videovid|videotlpse|videopiv|videoloop|photosingle|photocont|photonight|photoburst|phototlpse|photonightlpse|bcastrecord|bcastbcast]
+
+t api app flat_mode  [videovid|videotlpse|videopiv|videoloop|photosingle|photocont|photonight|photoburst|phototlpse|photonightlpse|bcastrecord|bcastbcast]
+
+t api app sub_mode [video|timelapse|video_photo|looping|single|continuous|night_photo|burst|timelapse|nightlapse|broadcast_record|broadcast]
+t api app mode_sub_mode [<video|photo|multi_shot|broadcast> <video|timelapse|video_photo|looping|single|continuous|night_photo|burst|timelapse|nightlapse|broadcast_record|broadcast>]
+t api app status - TODO

@@ -1,0 +1,24 @@
+t api multi_shot default_sub_mode [burst|timelapse|nightlapse]
+t api multi_shot res [12mp_wide|7mp_wide|7mp_medium|5mp_medium|10mp_wide|10mp_medium|8mp_wide|8mp_medium|12mp_medium|12mp_narrow|12mp_linear|10mp_linear]
+t api multi_shot burst_rate [3/1sec|5/1sec|10/1sec|10/2sec|10/3sec|30/1sec|30/2sec|30/3sec|30/6sec]
+t api multi_shot timelapse_rate [0.5sec|1sec|2sec|5sec|10sec|30sec|60sec]
+t api multi_shot nightlapse_rate [10sec|15sec|20sec|30sec|60sec|2min|5min|30min|60min|continuous|4sec|5sec]
+t api multi_shot exposure_time [auto|2sec|5sec|10sec|15sec|20sec|30sec]
+t api multi_shot spot_meter [off|on]
+t api multi_shot protune [off|on]
+t api multi_shot protune_white_balance [auto|3000k|5500k|6500k|native|4000|4800|6000]
+t api multi_shot protune_color [gopro_color|flat]
+t api multi_shot protune_sharpness [high|medium|low]
+t api multi_shot protune_iso [800|400|200|100|1600]
+t api multi_shot protune_ev [+2|+1.5|+1|+0.5|0|-0.5|-1|-1.5|-2]
+t api multi_shot protune_reset
+t api multi_shot capture_start
+t api multi_shot capture_stop
+t api multi_shot settings - TODO
+t api multi_shot status - TODO
+t api multi_shot count_down
+t api multi_shot protune_iso_min [800|400|200|100|1600]
+t api multi_shot wdr [off|on]
+t api multi_shot raw [off|on]
+t api multi_shot nightlapse_wdr [off|on]
+t api multi_shot nightlapse_raw [off|on]

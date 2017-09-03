@@ -1,0 +1,9 @@
+
+     help
+     press <button id> [duration in ms]
+     release <button id>
+
+     id:      mode/power - 0
+              shutter    - 1
+              settings   - 2
+              lcd        - 3

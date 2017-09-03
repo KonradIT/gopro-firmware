@@ -1,0 +1,20 @@
+Usage: t appc wireless bt dut  [on|off]
+                          i2s  [on <freq>|off]
+                          uart [baud rate]
+       Issue bt test commands to Linux
+
+Usage: t appc wireless pin
+
+       Show BLE pin code
+
+Usage: t appc wireless cah cah_state_get
+                           ready_to_offload_get
+                           ftu_input_got
+                           network_allocate
+                           network_release
+                           start
+                           cancel
+                           exit_done
+                           exit_input_got
+                           exit_failed
+

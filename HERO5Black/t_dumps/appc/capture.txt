@@ -1,0 +1,6 @@
+Usage: t appc capture [command]
+
+    command
+         start     starts capture
+         stop      stops capture
+         still     starts still capture

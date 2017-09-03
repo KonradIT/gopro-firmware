@@ -1,0 +1,6 @@
+Usage: t audio_australia <fn>
+
+                     <fn>
+                     ---
+                     set_cx_input
+                     set_volume     <volume>

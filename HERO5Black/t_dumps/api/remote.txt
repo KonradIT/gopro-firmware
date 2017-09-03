@@ -1,0 +1,1 @@
+Usage: t api remote <key> <module> <api id> <len 15:8> <len 7:0> <bytes ..>

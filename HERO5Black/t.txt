@@ -1,0 +1,31 @@
+AmbaShell Test Command [Version 1.0.0000]
+(C) Copyright 2004-2014 Ambarella Corp.
+
+supported test commands:
+	help
+	frw
+	gpdrv
+	hal
+	button
+	sd_shmoo
+	cx20810
+	audio_australia
+	audio_effect
+	audio
+	still
+	camdata
+	appc
+	api
+	imgfrw
+	boss
+	ambalink
+	drv
+	dsp
+	syslog
+	img
+	imgproc
+	gpver
+	dbg
+	tracex
+	ui
+	gpcal

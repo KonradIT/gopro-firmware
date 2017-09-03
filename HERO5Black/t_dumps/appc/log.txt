@@ -1,0 +1,10 @@
+
+Usage: t appc log [command]
+command-options
+save [filename(full path)]
+restore [filename(full path)]
+delete [filename(full path)]
+rec	<count|param> // log a 32 bit value
+show
+query [rec|file]
+

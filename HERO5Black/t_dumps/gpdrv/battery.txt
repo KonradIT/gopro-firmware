@@ -1,0 +1,1 @@
+Internal Battery: 3838mV, 53%, NORMAL. External Battery: 0mV

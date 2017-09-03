@@ -1,0 +1,26 @@
+Usage: t appc status [command]
+	 sd_stat <full/removed/busy/error/okay>
+	 show
+	 lowbatt
+	 overtemp
+	 version
+	 battery
+	 rtf
+	 beep on off num
+	 file_counts
+	 power_save
+	 blue_led on off num
+	 av_mgr list
+	 av_mgr attach x y
+	 av_mgr start x
+	 av_mgr resume x
+	 av_mgr detach x y
+	 av_mgr stop x
+	 av_mgr suspend x
+	 power_save_disable
+	 time_to_powersave
+	 time_to_timelapse
+	 hdmi_refresh
+	 gptunnel print/flush/debug [enable | disable]
+	 metadata on/off
+	 oled

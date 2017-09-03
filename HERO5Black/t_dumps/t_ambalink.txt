@@ -1,0 +1,3 @@
+Usage: t ambalink <command>, where command is:
+	load
+	boot

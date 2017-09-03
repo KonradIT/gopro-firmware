@@ -1,0 +1,3 @@
+		BANZAI Australia Release HD5.02.02.19.06 compiled Apr 17 2017, 03:53:56 git-569ab3c
+		DSPC AWE Release 09_26_2016-Australia_Full_v59_release
+		Amba DSP UCodeVer=263377 ApiVer=209824 SiliconVer=1760 2016-10-4

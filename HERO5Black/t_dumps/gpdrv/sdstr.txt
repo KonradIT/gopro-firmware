@@ -1,0 +1,3 @@
+Usage: t drv sdstr <sd id> <3|6|12|18>
+
+Command not supported

@@ -1,0 +1,3 @@
+t api transcode video_to_video <filename> <create_lrv_only> <create_mp4_only> <allow_indexing> <output_res> <fps_divisor> <start_msec> <end_msec> <idr_interval> <gop M> <gop N> <output_bitrate>
+t api transcode photo_to_video <filename> <allow_indexing> <sequence_count> <output_res>
+t api transcode cancel

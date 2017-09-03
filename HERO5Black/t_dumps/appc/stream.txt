@@ -1,0 +1,5 @@
+Usage: t appc stream [command]
+
+    command
+         start     starts stream
+         stop      stops stream

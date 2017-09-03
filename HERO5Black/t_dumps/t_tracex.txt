@@ -1,0 +1,4 @@
+
+
+ t tracex start <one_shot>
+ t tracex stop <file_name>

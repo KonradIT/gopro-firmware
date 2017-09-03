@@ -1,0 +1,39 @@
+Usage: t gpdrv mcu <fn>
+
+  Where <fn>:
+        pkton
+        pktoff
+        regver
+        bldver
+        appver
+        uniqueid
+        bootbld
+        bootapp
+        bootstat
+        ferase
+        fwrite
+        fiforst
+        fifold
+        fixed_challenge
+        trstat
+        wakeup
+        wifion
+        wifioff
+        powerdown [option]
+        bton
+        btoff
+        hbver
+        prodmodel [set value]
+        camfwver
+        capabilities
+        auth battery | bacpac
+        battery [temp|cap|volt|cur]
+        i2cwrite
+        i2cread
+        fusb
+        memread
+        send_cam_ready
+        get_irq_counts
+        shmempkt_on
+        shmempkt_off
+        fake_accessory [none|parakeet|garter|green_mamba| macaw| dpr ]

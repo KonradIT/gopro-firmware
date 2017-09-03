@@ -1,0 +1,28 @@
+Slot 12: 0xd61ef4c0 307200
+Slot 11: 0xd623a4c0 100139008
+Slot 10: 0xdc1ba4c0 10485760
+Slot  9: 0xdcbba4c0 26214400
+Slot  8: 0xde4ba4c0 5120
+Slot  7: 0xde4bb8c0 4160
+Slot  6: 0xde4bc900 24576
+Slot  5: 0xde4c2900 129920
+Slot  4: 0xde4e2480 4783872
+Slot  3: 0xde972380 15005632
+Slot  2: 0xdf7c1b40 40960
+Slot  1: 0xdf7cbb40 7050240
+Slot  0: 0xdfe84f40 504012
+
+Total Slot Memory: 164694860 bytes 157.07 MB 
+    DSP Work Area: 321912832 bytes 307.00 MB 0xba4fd040
+
+ DSP Memory Avail: 144647296 bytes 137.95 MB
+
+ Non Cached Total: 665845761 bytes 635.00 MB
+ Non Cached Avail:   1048536 bytes   1.00 MB
+
+     Cached Total:  50331648 bytes  48.00 MB
+     Cached Avail:  32042368 bytes  30.56 MB
+
+Camera Mode Cached Total: 209715200 bytes 200.00 MB
+Camera Mode Cached Avail: 154963160 bytes 147.78 MB
+

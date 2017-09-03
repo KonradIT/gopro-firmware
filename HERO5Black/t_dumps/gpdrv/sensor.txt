@@ -1,0 +1,4 @@
+t sensor help
+t sensor read <reg_addr>
+t sensor write <reg_addr> <data>
+t sensor standby <on/off>

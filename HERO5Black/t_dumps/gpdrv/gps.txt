@@ -1,0 +1,19 @@
+Usage gps v1.0
+t gpdrv gps [command]
+    lna [enable,disable]
+    fuse -- sets ANT_OFF_N
+    get [interval, port, powersave, gnss, timepulse, otp, llc, ant, rtc, status, gpstime, utctime, dyn_model]
+    hide [nmea, navpvt, time]
+    powersave [on, off, configct/configoo [acq_time_ms, search_period], show_enabled]
+    pt [set_poll, poll, start (gnssID,svID), stop]
+    receiver [disable (ms), reenable]
+    reset [cold, warm, hot, pin]
+    restart
+    set interval (ms), timepulse (Hz), port_baudrate (bps), port_output, ant (value), backup, cfg, gnss (gps,all), dyn_model
+    show [nmea, navstatus, navpvt, navsat, state, time]
+    stop
+    subscribe [navstatus, navpvt, navsat, gpstime, utctime]
+    timepulse [on,off,test_none,test_high,test_low,test_exit]
+    unsubscribe [navsat, navstatus, navpvt]
+    user [on,off]
+    version

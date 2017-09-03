@@ -1,0 +1,9 @@
+t api fwupdate flashing_start
+t api fwupdate download_start
+t api fwupdate download_cancel
+t api fwupdate download_done <hold_on|flash_now>
+t api fwupdate ota_status
+t api fwupdate download_cancel_status
+t api fwupdate rc_start
+t api fwupdate rc_later
+t api fwupdate status - TODO

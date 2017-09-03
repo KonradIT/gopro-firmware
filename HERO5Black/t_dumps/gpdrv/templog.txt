@@ -1,0 +1,1 @@
+SD card temperature logging is disabled

@@ -1,0 +1,3 @@
+Usage: t drv cable <show|enable|disable>
+
+       Show, eable, or disable the current 10 pin USB cable status

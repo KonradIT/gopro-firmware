@@ -1,0 +1,21 @@
+
+Usage: 
+t appc voice vr_test [on/off]  This allows test commands to be processed by voice control
+t appc voice vr_narration [0/1] This simulates remote_voice_control_local_voice_start() 
+t appc voice vr_cmd_echo [n]    This echos command n back to Sniper device
+t appc voice vr_cmd_status [n m]  This sends status m for command n to Sniper device
+
+t appc voice cmd <number>  where <number> is:
+		0 for turnon
+		1 for turnoff
+		2 for start video
+		3 for stop video
+		4 for tag
+		5 for take photo
+		6 for take burst
+		7 for start timelapse
+		8 for stop timelapse
+		9 for video mode
+		10 for photo mode
+		11 for timelapse mode
+		12 for burst mode

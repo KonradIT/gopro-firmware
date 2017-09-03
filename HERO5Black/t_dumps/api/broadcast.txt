@@ -1,0 +1,17 @@
+t api broadcast default_sub_mode [broadcast_record|broadcast]
+t api broadcast res_fps_fov [<4k_17:9|4k|4ks|2.7k_17:9|2.7k|2.7ks|2.7k_4:3|1440|1080s|1080|960|720s|720|wvga|2.7K_SQ|1.5K_SQ|PANO_SQ> <240|120|100|90|80|60|50|48|30|25|24|15|12.5> <wide|medium|narrow|superview|linear>]
+t api broadcast record_res_fps_fov [<4k_17:9|4k|4ks|2.7k_17:9|2.7k|2.7ks|2.7k_4:3|1440|1080s|1080|960|720s|720|wvga|2.7K_SQ|1.5K_SQ|PANO_SQ> <240|120|100|90|80|60|50|48|30|25|24|15|12.5> <wide|medium|narrow|superview|linear>]
+t api broadcast privacy [ask|hidden|public]
+t api broadcast bstatus [camera_not_registered|ready|busy|stalled|no_gopro_com|network_connection_lost]
+t api broadcast viewers [arg0]
+t api broadcast progress_counter
+t api broadcast enable [no|yes]
+t api broadcast gop_size [arg0]
+t api broadcast idr_interval [arg0]
+t api broadcast bit_rate [arg0]
+t api broadcast window_size [default|240_width_default|240_width_3/4|240_width_1/2|480_width_default|480_width_3/4|480_width_1/2|720_width_default|720_width_3/4|720_width_1/2]
+t api broadcast start <ask|hidden|public>
+t api broadcast stop
+t api broadcast settings - TODO
+t api broadcast status - TODO
+t api broadcast send_event <camera_not_registered|ready|busy|stalled|no_gopro_com|network_connection_lost>

@@ -1,0 +1,25 @@
+t api playback start [arg0]
+t api playback stop
+t api playback pause
+t api playback resume
+t api playback step
+t api playback step_fwd
+t api playback step_bwd
+t api playback forward <1x|2x|4x|8x|1/2x|1/4x|1/8x>
+t api playback backward <1x|2x|4x|8x|1/2x|1/4x|1/8x>
+t api playback show_start [arg0]
+t api playback show_stop
+t api playback group_play [arg0]
+t api playback nfile
+t api playback pfile
+t api playback group_nfile
+t api playback group_pfile
+t api playback tsearch [arg0]
+t api playback volume [arg0]
+t api playback show_pause
+t api playback show_resume
+t api playback show_nfile
+t api playback group_pause
+t api playback group_resume
+t api playback clip_photo
+t api playback set_scrnl_size [arg0] [arg1] [arg2] [arg3]

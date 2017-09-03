@@ -1,0 +1,30 @@
+t api setup lcd [off|on]
+t api setup lcd_brightness [arg0]
+t api setup oled_brightness [arg0]
+t api setup lcd_sleep [never|1min|2min|3min|5min|10min|15min|30min]
+t api setup lcd_lock [off|on]
+t api setup gps [off|on]
+t api setup local_voice_control [off|on]
+t api setup orientation [auto|up|down]
+t api setup default_app_mode [video|photo|multi_shot|broadcast|playback|setup|fwupdate|usb_mtp|sos|medit|calib|reserved|videovid|videotlpse|videopiv|videoloop|photosingle|photocont|photonight|photoburst|phototlpse|photonightlpse|bcastrecord|bcastbcast]
+t api setup quick_capture [off|on]
+t api setup quick_capture_long_press [video|photo|multi_shot|broadcast|playback|setup|fwupdate|usb_mtp|sos|medit|calib|reserved|videovid|videotlpse|videopiv|videoloop|photosingle|photocont|photonight|photoburst|phototlpse|photonightlpse|bcastrecord|bcastbcast]
+t api setup quick_capture_short_press [video|photo|multi_shot|broadcast|playback|setup|fwupdate|usb_mtp|sos|medit|calib|reserved|videovid|videotlpse|videopiv|videoloop|photosingle|photocont|photonight|photoburst|phototlpse|photonightlpse|bcastrecord|bcastbcast]
+t api setup video_selected_flatmode [video|photo|multi_shot|broadcast|playback|setup|fwupdate|usb_mtp|sos|medit|calib|reserved|videovid|videotlpse|videopiv|videoloop|photosingle|photocont|photonight|photoburst|phototlpse|photonightlpse|bcastrecord|bcastbcast]
+t api setup photo_selected_flatmode [video|photo|multi_shot|broadcast|playback|setup|fwupdate|usb_mtp|sos|medit|calib|reserved|videovid|videotlpse|videopiv|videoloop|photosingle|photocont|photonight|photoburst|phototlpse|photonightlpse|bcastrecord|bcastbcast]
+t api setup timelapse_selected_flatmode [video|photo|multi_shot|broadcast|playback|setup|fwupdate|usb_mtp|sos|medit|calib|reserved|videovid|videotlpse|videopiv|videoloop|photosingle|photocont|photonight|photoburst|phototlpse|photonightlpse|bcastrecord|bcastbcast]
+t api setup led [off|2|4]
+t api setup beep_volume [arg0]
+t api setup video_format [ntsc|pal]
+t api setup osd [off|on]
+t api setup auto_power_down [never|1min|2min|3min|5min|10min|15min|30min]
+t api setup language [english|chinese|german|italian|spanish|japanese|french|korean|portuguese|russian]
+t api setup vr_language [english_us|english_uk|english_aus|german|french|italian|spanish_eu|spanish_na|chinese|japanese|korean|portuguese|russian]
+t api setup hdout [gallery|live|monitor|herocast]
+t api setup contextual_menu <off|on>
+t api setup date_time - TODO
+t api setup settings - TODO
+t api setup status - TODO
+t api setup all_settings - TODO
+t api setup first_time_voice_command_flag [off|on]
+t api setup dive_sense [off|on]

@@ -1,0 +1,25 @@
+t api video
+      photo
+      multi_shot
+      playback
+      storage
+      setup
+      app
+      system
+      wireless
+      broadcast
+      stream
+      fwupdate
+      trim
+      transcode
+      multicam
+      usb
+      liveview
+      audio
+      time_format
+      sd_scan
+      date_format
+      pb
+      remote
+      reminstance
+      appc_db

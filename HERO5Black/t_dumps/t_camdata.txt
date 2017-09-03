@@ -1,0 +1,23 @@
+Usage: t camdata <nv|mfg> <param> [<set-value>]
+	nv params:
+		wifi_mac
+		bt_mac
+		cam_sn
+		cam_pn
+		cam_pn_ver
+		lens_lot_num
+		mfg_date
+		board_sn
+		board_pn
+		board_pn_rev
+		mfg_line
+		crc
+		len
+		ver
+		mtf
+	mfg params:
+		site_result
+		lens_vendor
+		crc
+		len
+		ver

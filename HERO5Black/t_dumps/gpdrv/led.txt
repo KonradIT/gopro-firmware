@@ -1,0 +1,9 @@
+Usage: t gpdrv led start <top|bottom|front|back> <blue|red> <on msec> <off msec> [num]
+                 stop   <top|bottom|front|back> <blue|red>
+                 breath <on|off>
+                 wifi <on|off>
+                 ramp
+                 config
+                 charging <on|off>
+                 current <current_mA> (0.0 - 25.5)
+                 Blink/Start/Stop LED at certain speed

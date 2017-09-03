@@ -1,0 +1,20 @@
+t hal adc
+      gpio
+      debug_disable
+      debug_enable
+      targetinfo
+      i2c
+      irqsrc
+      spi
+      tempsrc
+      a9se_gpio_ctrl
+      bmi160
+      mpu6500
+      bmi_160
+      st7570
+      lp5562
+      ft6306
+      mxt144
+      st7796s
+      a9se_watchdog
+      gt1

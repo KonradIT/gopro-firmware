@@ -1,0 +1,21 @@
+Usage: t as3716 [command]
+
+    command
+       battv
+       bt <on|off>
+       dumpregs
+       charger_disabled <set|clear|get>
+       charger_status
+       ibattemp
+       poweroff
+       read_gpio_in <gpio number>
+       readb <regaddr>
+       reset
+       suspend <ddr powered?> <ath powered?> <wifi enabled?> <bt enabled?>
+       wifi_3v3 <on|off>
+       wlan <on|off>
+       writeb <regaddr> <value>
+       redled <on/off>
+       blueled_back_a9_ctrl <disable|enable>
+       blueled_top_bottom_a9_ctrl <disable|enable>
+       LNA <disable|enable>

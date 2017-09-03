@@ -1,0 +1,10 @@
+Usage: t appc settings [command]
+
+	 dump 
+	 status use: t appc status show
+	 save
+	 reset
+	 still_override <"reset" | mode>
+	 fp_rightside_up [<yes|no>]
+	 unlock
+	 external_sync on/off

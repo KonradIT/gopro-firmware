@@ -1,0 +1,31 @@
+
+
+ t api pb win <first_index> <second_index> 
+ t api pb idx <file_index>
+ t api pb q_dec_req <file_index>
+ t api pb dq_dec_req <queue_index>
+ t api pb q_flush
+ t api pb buf_copy <index>
+ t api pb scrnl_enter <index>
+ t api pb q_scrnl_req <file_index>
+ t api pb dq_scrnl_req <queue_index>
+ t api pb q_flush_scrnl
+ t api pb scrnl_copy <index>
+ t api pb thumb_dim <height> <width>
+ t api pb scrn_info <index>
+ t api pb background_clear
+ t api pb video_info
+ t api pb delete <num_files> <file_indexes>
+ t api pb gallery_file_count <Filter: 0-all,1-video,2-photo,3-clips,4-tags>
+ t api pb video_tag_info <file_index>
+ t api pb multishot_tag_info <file_index>
+ t api pb clip_vid_save <file_index> <start_msec> <end_msec>
+ t api pb thumbnail_enter <Filter: 0-all,1-video,2-photo,3-clips,4-tags> <Sort order: 0-ascending, 1-descending>
+ t api pb get_grp_count
+ t api pb get_grp_info <file_index> <grp_id>
+ t api pb get_grp_name <file_index>
+ t api pb fps <file_idx>
+ t api pb idx_in_grp <fl_idx>
+ t api pb is_count_ready [tag/clip]
+ t api pb photo_grab
+

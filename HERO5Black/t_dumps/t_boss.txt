@@ -1,0 +1,8 @@
+Usage: t boss <command>, where command is:
+	fs [0 | 1]
+		 - force to schedule boss task if rtos has free time
+		 - tasks that have lower priority than boss task will be blocked!
+	period [0 - 10]
+	priority [115]
+	profiling [start | stop]
+	show

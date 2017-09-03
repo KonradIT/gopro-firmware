@@ -1,0 +1,17 @@
+Usage: t appc fwupdate [command]
+	 start [waiting]
+	 ready [prompt]
+	 reset
+	 download
+	 cancel
+	 boot_fw
+	 isrequired
+	 iswaiting
+	 isinprogress
+	 state
+	 notify [start|fini|failed|download|downfail|downcan|downrdy|battlow|
+	        rcstart|rcdone|rcfail|rcavail|rcbattlow|mcustart|mcudone|mcufailed|step]
+	 ptb
+	 cal [save|restore] file.bin
+	 rmdir path
+	 rcstart [waiting]

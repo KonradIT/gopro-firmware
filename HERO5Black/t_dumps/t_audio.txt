@@ -1,0 +1,10 @@
+Usage: t audio route <src> <sink>
+
+                src              sink
+                ---              ----
+                 0 (none)         0 (none)
+                 1 (int mic)      1 (speaker)
+                 2 (ext mic)      2 (line out)
+                 3 (bt  mic)      3 (headphone)
+                 4 (herobus)      4 (hdmi)
+                                  5 (herobus)

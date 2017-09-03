@@ -1,0 +1,5 @@
+t api audio protune [off|on]
+t api audio audio_option [stereo|wind_noise_reduction|auto]
+t api audio protune_option [raw|gain|dynamics|off]
+t api audio bt_option [none|mixed|bt_only]
+t api audio mute [off|on]

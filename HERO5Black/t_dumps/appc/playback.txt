@@ -1,0 +1,13 @@
+Usage: t appc playback [command]
+	 start <file-index>
+	 stop <file-index>
+	 thumbnail <file-index> <thumbnail-count>
+	 <1=SCREEN_NAIL, 6=THUMB_NAIL_2_X_3, 9=THUMB_NAIL_3_X_3>
+	 pause
+	 resume
+	 step
+	 forward
+<SPEED: 1X, 2X, 4X, 8X, 1_2_X, 1_4_X, 1_8_X>
+	 backward
+<SPEED: 1X, 2X, 4X, 8X, 1_2_X, 1_4_X, 1_8_X>
+	 slide_show<file_index>

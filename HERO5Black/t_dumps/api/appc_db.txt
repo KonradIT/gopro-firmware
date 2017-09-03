@@ -1,0 +1,4 @@
+Usage: t api appc_db <db_cmd>
+	 db_cmd:
+		 pl <itemPerPage> <startIndex> <listOptions> <queryOptions>
+		 us_hist

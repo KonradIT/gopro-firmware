@@ -1,0 +1,8 @@
+Usage: t cx20810 <fn>
+
+                 fn
+                 ---
+                 readb         <addr>
+                 writeb        <addr>    <data>
+                 i2s_setup
+                 reg_dump

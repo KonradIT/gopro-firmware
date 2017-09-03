@@ -1,0 +1,19 @@
+t gpdrv mcu
+      i2cmux
+      pmic_as3716
+      cable
+      buzzer
+      rtc
+      led
+      battery
+      templog
+      dspcntchk
+      tasks
+      sdstr
+      voutstr
+      hdmiphy
+      gpbuff_fs
+      sensor
+      gps
+      mpm
+      dsp_mem
